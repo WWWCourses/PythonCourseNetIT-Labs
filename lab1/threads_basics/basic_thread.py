@@ -3,20 +3,19 @@ import time
 
 
 def worker(x):
-	tid = threading.currentThread().name;
-	print(f"Work started in thread {tid}")
+	# tid = threading.currentThread().name;
+	print(f"Work started in thread and x = {x}")
 	time.sleep(2)
-	print(f"Work ended in thread {tid}")
+	print(f"Work ended in thread")
 
 
-# create the tread
-tr = threading.Thread(target=worker, args=(42,))
 
-# start the thread:
-print(f"Start Thread")
+# create thread
+tr = threading.Thread(target=worker, name="tr1", args=(42,), daemon=None)
+
+# start thread
 tr.start()
 
-# wait until thread terminates:
-# tr.join()
+tr.join()
 
-print("Main process end!")
+print(f"Main process finished")
