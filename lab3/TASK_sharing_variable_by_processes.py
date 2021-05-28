@@ -1,3 +1,10 @@
+"""ЗАДАЧА:
+	Разгледайте дадения по-долу код и направете необходимите промени,
+	така че след приключването на двата процеса променливата x да има стойност 20.
+
+	Използвайте multiprocessing.Queue() за да обмените текущата стойност на x между процесите.
+"""
+
 import multiprocessing as mp
 
 def increment(r):
@@ -6,31 +13,22 @@ def increment(r):
 	for _ in r:
 		x+=1
 
-	# write x in queue:
-	queue.put(x)
-
-	# print(f"x in {mp.current_process().name}: {x}")
+	print(f"x in {mp.current_process().name}: {x}")
 
 if __name__ == "__main__":
 	x = 0
 
-	queue = mp.Queue();
-
 	incr_count = 10
 
+	# create and start 2 process which should increment a variable:
 	pr1 = mp.Process(target=increment, args=(range(incr_count),))
 	pr2 = mp.Process(target=increment, args=(range(incr_count),))
+	pr1.start(); pr2.start()
 
-	pr1.start()
-	x = queue.get()
-	print(f'x from gueue: {x}')
-	pr2.start()
-
-	pr1.join()
-	pr2.join()
+	# wait processes to finish
+	pr1.join();pr2.join()
 
 	print(f"x in {mp.current_process().name}: {x}")
 
-
-	#OUTPUT
+	#Очакван  изход
 	# x in Main Process: 20
