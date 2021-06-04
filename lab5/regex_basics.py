@@ -1,25 +1,27 @@
 import re
 
 # TASK: validate user email
-# "<atleast 3 symbols>@<at least 1 letter>.<at least 3 letters>"
+# "<at least 3 symbols>@<at least 1 letter>.<at least 3 letters>"
 user_mail = "alabala@test.com"
 
-# str = ">\\t<";
-# r_str = r">\t<"
-# print(str);
-# print(r_str);
-
-#special regex character
-# . , + , * , ? , ^ , $ , ( , ) , [ , ] , { , } , | ,
-
-# TODO: check r"\c" => error
-pattern = r"1aaa1";
-str_to_search = "1aaa1"
+# pattern = r"a?a";
+# strings = [
+# 	"aa", # yes
+# 	"a",  # yes
+# 	"aaa",  # yes
+# ]
 
 
+# tel = r"\+359 [0-9]{8}"
+pattern = r"[A-Z]{6}"
+strings = [
+	"IVANOV", 	#
+	"Ivanov" # no
+]
 
-
-if re.search(pattern, str_to_search):
-	print("Match")
-else:
-	print("no Match")
+for str in strings:
+	res = re.search(pattern, str)
+	if res:
+		print(f"{str} => {res}")
+	else:
+		print("no Match")
