@@ -1,6 +1,4 @@
-import re
-
-""" TASK:
+""" TASK 1:
 	If the string contains the word "strawberries" or "raspberries" print the string but append "Yes!" to its end, otherwise append "No!"
 """
 
