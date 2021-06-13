@@ -6,6 +6,7 @@ def read_file_as_string(path):
 def write_to_file(path,string):
 	pass
 
+
 def extract_and_store_data(html):
 	rx = re.compile(r'')
 	res = rx.findall(html)
@@ -16,7 +17,7 @@ def extract_and_store_data(html):
 
 
 
-html = read_file_as_string('html/PA_agenda.html')
+html = read_file_as_string('html/test.html')
 # print(html)
 
 data = extract_and_store_data(html)

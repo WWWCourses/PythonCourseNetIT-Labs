@@ -9,12 +9,11 @@ import re
 		We may use positive lookahead (https://www.regular-expressions.info/lookaround.html), to test for second condition
 '''
 def validate_password(string):
-	rx = re.compile(r'''(?x)
-	^
-	# test for letter
-	# test for number
-	# test for length (all characters)
-	$
+	rx = re.compile(r'''(?xi)
+	# TODO: not works here (make it backtrack to the beginning):
+	.*(?=\d) 		# test for number
+	.*(?=[a-z])		# test for letter
+	{3,}			# test for length (all characters)
 	''')
 
 	m = rx.search(string)
@@ -25,10 +24,9 @@ def validate_password(string):
 
 
 tests = [
-	"q1a2z3wsx", # yes
-	"q1a2z3", # no (length)
-	"qazws &hhjdjhfddd", # no (no number)
-	"jk%jk__________1", #yes
+	"___a_____1", #yes
+	"___1_____a", #yes
+	"_____1a", #no
 ]
 
 for t in tests:

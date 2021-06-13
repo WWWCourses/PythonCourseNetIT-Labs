@@ -7,21 +7,15 @@ def strip_all_tags(html):
 
 def strip_mult_spaces(data,count):
 	rx = re.compile(r'\s{'+str(count)+',}')
-	print(rx)
 	return rx.sub('',data)
 
 def print_all_tags(html):
 	rx = re.compile(r'(?s)<.+?>')
-	tags = rx.findall(html)
+	res = rx.findall(html)
 
 	print(len(res))
 	for r in res:
 		print(r)
-
-def extrac_info(html):
-	rx = re.compile(r'(?is)<div class="ac-head">.+<span>\s+(\d+)\s*<\/span>\s*<div>(.+?)<\/div>')
-	res = rx.findall(html)
-	print(res[0][1])
 
 
 html = '''<div class="ac-head">
@@ -35,13 +29,14 @@ html = '''<div class="ac-head">
 											</div>
 '''
 
-extrac_info(html)
 
-# data = strip_all_tags(html)
-# print(data)
+tags = print_all_tags(html)
 
-# data_cleaned=strip_mult_spaces(data,3)
-# print(data_cleaned)
+data = strip_all_tags(html)
+print(data)
+
+data_cleaned=strip_mult_spaces(data,3)
+print(data_cleaned)
 
 
 
