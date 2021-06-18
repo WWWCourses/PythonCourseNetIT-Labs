@@ -1,0 +1,15 @@
+# Todo.csv:
+id,title,completed,userID
+1,"Learn Pytohn",false,<Users>1
+2,"Learn Mongodb",false,<Users>2
+3,"Learn Django",true
+
+
+
+
+
+# Users.csv:
+id,name,age
+1,"Maria", 23
+2,"Pesho", 32
+
