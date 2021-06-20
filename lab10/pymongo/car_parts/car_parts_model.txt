@@ -1,0 +1,4 @@
+DB: car_parts_shop
+	Collections:
+		car_parts, orders, users
+
