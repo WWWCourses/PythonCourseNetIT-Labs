@@ -1,0 +1,26 @@
+# https://linuxconfig.org/how-to-reset-root-mysql-mariadb-password-on-ubuntu-20-04-focal-fossa-linux
+
+# stop mysql service
+sudo systemctl stop mysql
+
+# if you don't have '/var/run/mysqld' create it with proper user wrights:
+sudo mkdir -p /var/run/mysqld
+sudo chown mysql:mysql /var/run/mysqld
+
+# start the server, passwordless
+sudo /usr/sbin/mysqld --skip-grant-tables --skip-networking &
+
+# connect as root without password:
+mysql -u root
+
+
+# now in mysql shell:
+> FLUSH PRIVILEGES;
+> USE mysql;
+# change the password '1234' with yors
+> ALTER USER 'root'@'localhost' IDENTIFIED BY '1234';
+> quit
+
+
+
+
