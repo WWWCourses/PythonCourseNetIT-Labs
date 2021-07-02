@@ -1,7 +1,7 @@
 
-DROP DATABASE IF EXISTS customers;
-CREATE DATABASE IF NOT EXISTS customers;
-use customers;
+DROP DATABASE IF EXISTS customers_db;
+CREATE DATABASE customers_db;
+use customers_db;
 
 CREATE TABLE `customers` (
   `id` int NOT NULL AUTO_INCREMENT,

@@ -16,7 +16,7 @@ SELECT first_name, order_date
 	FROM customers
 	INNER JOIN orders
 	ON customers.id=orders.customer_id
-	ORDER BY first_name;
+	ORDER BY first_name DESC;
 
 /* -------------------------------- LEFT JOIN ------------------------------- */
 -- Show the name and order date of all customers, no matter if they have orders or not:
