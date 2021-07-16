@@ -10,9 +10,9 @@ import re
 '''
 def validate_password(string):
 	rx = re.compile(r'''(?xi)
-	# TODO: not works here (make it backtrack to the beginning):
-	.*(?=\d) 		# test for number
-	.*(?=[a-z])		# test for letter
+
+	(?=.*\d) 		# test for number
+	(?=.*[a-z])		# test for letter
 	{3,}			# test for length (all characters)
 	''')
 

@@ -2,7 +2,6 @@ import mysql.connector
 from mysql.connector import connection
 
 
-# TODO: check where the data is loaded
 def make_connection(user, password, db, host="localhost", port=3306):
 	try:
 		cnx = mysql.connector.connect(
