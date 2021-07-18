@@ -12,7 +12,6 @@ class MainWindow(qtw.QWidget, Ui_Form):
 		self.setupUi(self)
 		self.close()
 
-	# TODO: discuss why not working
 	def close(self):
 		self.btn_close.clicked.connect( self.close )
 
