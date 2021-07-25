@@ -36,9 +36,10 @@ class MainWindow(qtw.QMainWindow):
 			qtc.Qt.BottomToolBarArea
 		)
 
+
 		# -------------------------------- add Actions ------------------------------- #
 		open_action = file_menu.addAction('Open', self.open_file)
-		save_action = file_menu.addAction('Save')
+		save_action = file_menu.addAction('Save', self.save_file)
 
 		# add separator
 		file_menu.addSeparator()
@@ -56,14 +57,26 @@ class MainWindow(qtw.QMainWindow):
 		edit_menu.addAction('Set Font…', self.set_font)
 		edit_menu.addAction('Settings…', self.show_settings)
 
+		open_icon = self.style().standardIcon(qtw.QStyle.SP_DirOpenIcon)
+		save_icon = self.style().standardIcon(qtw.QStyle.SP_DriveHDIcon)
+
+		open_action.setIcon(open_icon)
+		toolbar.addAction(open_action)
+
+		toolbar.addAction(
+			save_icon,
+			'Save',
+			lambda: self.statusBar().showMessage('File Saved!')
+		)
+
 		help_action = qtw.QAction(
 			self.style().standardIcon(qtw.QStyle.SP_DialogHelpButton),
 			'Help',
 			self,  # important to pass the parent!
 			# add signal
-			# triggered=lambda: self.StatusBar().showMessage(
-			# 		'Sorry, no help yet!'
-			# )
+			triggered=lambda: self.statusBar().showMessage(
+					'Sorry, no help yet!'
+			)
 
 		)
 		toolbar.addAction(help_action)
@@ -118,12 +131,50 @@ class MainWindow(qtw.QMainWindow):
 		pass
 
 	def search_and_replace(self):
-		pass
+		search_str = self.search_text_input.text()
+		replace_str = self.replace_text_input.text()
+
+		if search_str:
+			self.textedit.setText(
+				self.textedit.toPlainText().replace(search_str, replace_str)
+			)
 
 	def open_file(self):
-		pass
+		filename, _ = qtw.QFileDialog.getOpenFileName(
+			self,
+			"Select a text file to open…",
+			qtc.QDir.homePath(),
+			'Text Files (*.txt) ;;Python Files (*.py) ;;All Files (*)',
+			'Python Files (*.py)',
+			qtw.QFileDialog.DontUseNativeDialog |
+			qtw.QFileDialog.DontResolveSymlinks
+		)
+		if filename:
+			try:
+				with open(filename, 'r') as fh:
+					self.textedit.setText(fh.read())
+			except Exception as e:
+				# Errata:  Book contains the following line:
+				#qtw.QMessageBox.critical(f"Could not load file: {e}")
+				# It should read like this:
+				qtw.QMessageBox.critical(self, f"Could not load file: {e}")
 
-
+	def save_file(self):
+		filename, _ = qtw.QFileDialog.getSaveFileName(
+			self,
+			"Select the file to save to…",
+			qtc.QDir.homePath(),
+			'Text Files (*.txt) ;;Python Files (*.py) ;;All Files (*)'
+		)
+		if filename:
+			try:
+				with open(filename, 'w') as fh:
+					fh.write(self.textedit.toPlainText())
+			except Exception as e:
+				# Errata:  Book contains this line:
+				#qtw.QMessageBox.critical(f"Could not save file: {e}")
+				# It should read like this:
+				qtw.QMessageBox.critical(self, f"Could not load file: {e}")
 
 
 if __name__ == '__main__':

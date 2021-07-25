@@ -1,0 +1,20 @@
+/* this rule apply to all QLabel Widgets */
+QLabel {
+	padding: 5px;
+	color: #FFF;
+	background-color: #F99;
+	border: 1px solid #F66;
+	border-radius: 10px;
+}
+
+/* this rule apply to all QPushButton Widgets */
+QPushButton{
+	background-color:#9f9
+}
+
+/* this rule apply to all QPushButton Widgets,but only when the mouse is hovered on them */
+QPushButton:hover{
+	background-color:#99F;
+	font-size: 20px;
+}
+
