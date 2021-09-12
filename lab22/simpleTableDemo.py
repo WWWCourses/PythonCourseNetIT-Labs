@@ -33,20 +33,22 @@ class SimpleTable(qtw.QTableWidget):
 		self.resizeRowsToContents();
 
 		# actions
-		self.tableAction()
+		self.createTableAction()
 
-	def tableAction(self):
+	def createTableAction(self):
 		self.add_above_action = qtw.QAction("Add row above", self)
 		self.add_above_action.triggered.connect(lambda: self.insertRow(self.currentRow()))
 
-
+	# we must re-implement QWidget's contextMenuEvent() function to receive the context menu events for our table widget
 	def contextMenuEvent(self, event):
 		context_menu = qtw.QMenu(self)
 		context_menu.addAction(self.add_above_action)
+
+		#HW: imlement add row below custom action
 		context_menu.addAction("Add row bellow")
+
+		# By passing the event's position as argument we ensure that the context menu appears at the expected position.
 		context_menu.exec_(event.globalPos())
-
-
 
 
 class MainWindow(qtw.QWidget):
