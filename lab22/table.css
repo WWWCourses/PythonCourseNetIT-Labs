@@ -1,0 +1,25 @@
+/* style table */
+QTableWidget{
+	border:10px outset #00dfe0;
+}
+
+QTableWidget::item::selected{
+	background-color:red;
+}
+
+QHeaderView::section{
+	background-color:#9F9;
+}
+/* style buttons */
+QPushButton{
+	font-size: 50px;
+	/* border: 10px outset red; */
+	border-radius: 10px;
+}
+
+QPushButton#ok{
+	background-color: #F99;
+}
+QPushButton#close{
+	background-color: #9F9;
+}
