@@ -1,0 +1,11 @@
+name,price
+"apple","2.34"
+"oranges","5.00"
+
+<fruit>
+	<name>apple</name>
+	<price>2.34</price>
+</fruit>
+
+<fruit>oranges</fruit>
+<price>5.00</price>
