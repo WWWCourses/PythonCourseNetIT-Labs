@@ -1,0 +1,66 @@
+== Info: Rebuilt URL to: http://localhost:8080/
+== Info:   Trying 127.0.0.1...
+== Info: Connected to localhost (127.0.0.1) port 8080 (#0)
+=> Send header, 78 bytes (0x4e)
+0000: GET / HTTP/1.1
+0010: Host: localhost:8080
+0026: User-Agent: curl/7.47.0
+003f: Accept: */*
+004c: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 22 bytes (0x16)
+0000: Accept-Ranges: bytes
+<= Recv header, 34 bytes (0x22)
+0000: Cache-Control: public, max-age=0
+<= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Fri, 01 Oct 2021 16:07:21 GMT
+<= Recv header, 27 bytes (0x1b)
+0000: ETag: W/"32b-17c3c9c2f12"
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=UTF-8
+<= Recv header, 22 bytes (0x16)
+0000: Content-Length: 1992
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 01 Oct 2021 16:10:51 GMT
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 23 bytes (0x17)
+0000: Keep-Alive: timeout=5
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 794 bytes (0x31a)
+0000: <!DOCTYPE html>.<html lang="en">.<head>..<meta charset="UTF-8">.
+0040: .<meta name="viewport" content="width=device-width, initial-scal
+0080: e=1.0">..<title>index </title>..<link rel="stylesheet" href="./s
+00c0: tyles/main.css">.</head>.<body>..<h1>Book Title</h1>..<h2>Chapte
+0100: r1</font></h2>..<p>Lorem ipsum dolor sit amet consectetur adipis
+0140: icing elit. Corrupti quasi facilis nobis eius officia soluta mag
+0180: ni animi, odit ex amet mollitia laborum dolorum iste dolor liber
+01c0: o necessitatibus rerum veritatis voluptatem?</p>..<h2>Chapter2</
+0200: h2>...<a href="https://google.com">go to goole</a>...<form actio
+0240: n="../back-end/login.py" method="POST">...<label>user name: <inp
+0280: ut autocomplete="off" type="text" name="userName"></label>...<la
+02c0: bel>pass: <input type="password" name="pass"></label>...<button>
+0300: Submit</button>..</form>..
+<= Recv data, 1198 bytes (0x4ae)
+0000: <!-- Code injected by live-server -->.<script type="text/javascr
+0040: ipt">..// <![CDATA[  <-- For SVG support..if ('WebSocket' in win
+0080: dow) {...(function() {....function refreshCSS() {.....var sheets
+00c0:  = [].slice.call(document.getElementsByTagName("link"));.....var
+0100:  head = document.getElementsByTagName("head")[0];.....for (var i
+0140:  = 0; i < sheets.length; ++i) {......var elem = sheets[i];......
+0180: head.removeChild(elem);......var rel = elem.rel;......if (elem.h
+01c0: ref && typeof rel != "string" || rel.length == 0 || rel.toLowerC
+0200: ase() == "stylesheet") {.......var url = elem.href.replace(/(&|\
+0240: ?)_cacheOverride=\d+/, '');.......elem.href = url + (url.indexOf
+0280: ('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueO
+02c0: f());......}......head.appendChild(elem);.....}....}....var prot
+0300: ocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://'
+0340: ;....var address = protocol + window.location.host + window.loca
+0380: tion.pathname + '/ws';....var socket = new WebSocket(address);..
+03c0: ..socket.onmessage = function(msg) {.....if (msg.data == 'reload
+0400: ') window.location.reload();.....else if (msg.data == 'refreshcs
+0440: s') refreshCSS();....};....console.log('Live reload enabled.');.
+0480: ..})();..}..// ]]>.</script>.</body>.</html>..
+== Info: Connection #0 to host localhost left intact

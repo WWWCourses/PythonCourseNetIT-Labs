@@ -1,0 +1,1328 @@
+== Info: Rebuilt URL to: https://softwareacademy.bg/
+== Info:   Trying 185.123.190.194...
+== Info: Connected to softwareacademy.bg (185.123.190.194) port 443 (#0)
+== Info: found 131 certificates in /etc/ssl/certs/ca-certificates.crt
+== Info: found 533 certificates in /etc/ssl/certs
+== Info: ALPN, offering http/1.1
+== Info: SSL connection using TLS1.2 / ECDHE_RSA_AES_256_GCM_SHA384
+== Info: 	 server certificate verification OK
+== Info: 	 server certificate status verification SKIPPED
+== Info: 	 common name: softwareacademy.bg (matched)
+== Info: 	 server certificate expiration date OK
+== Info: 	 server certificate activation date OK
+== Info: 	 certificate public key: RSA
+== Info: 	 certificate version: #3
+== Info: 	 subject: CN=softwareacademy.bg
+== Info: 	 start date: Thu, 02 Sep 2021 00:00:00 GMT
+== Info: 	 expire date: Wed, 01 Dec 2021 23:59:59 GMT
+== Info: 	 issuer: C=US,ST=TX,L=Houston,O=cPanel\, Inc.,CN=cPanel\, Inc. Certification Authority
+== Info: 	 compression: NULL
+== Info: ALPN, server accepted to use http/1.1
+=> Send header, 82 bytes (0x52)
+0000: GET / HTTP/1.1
+0010: Host: softwareacademy.bg
+002a: User-Agent: curl/7.47.0
+0043: Accept: */*
+0050: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 01 Oct 2021 15:53:46 GMT
+<= Recv header, 16 bytes (0x10)
+0000: Server: Apache
+<= Recv header, 40 bytes (0x28)
+0000: Expires: Thu, 19 Nov 1981 08:52:00 GMT
+<= Recv header, 79 bytes (0x4f)
+0000: Cache-Control: no-store, no-cache, must-revalidate, post-check=0
+0040: , pre-check=0
+<= Recv header, 18 bytes (0x12)
+0000: Pragma: no-cache
+<= Recv header, 64 bytes (0x40)
+0000: Set-Cookie: PHPSESSID=2f74eccb4eadec8685a93447e5b3cc41; path=/
+<= Recv header, 13 bytes (0xd)
+0000: Upgrade: h2
+<= Recv header, 21 bytes (0x15)
+0000: Connection: Upgrade
+<= Recv header, 28 bytes (0x1c)
+0000: Transfer-Encoding: chunked
+<= Recv header, 25 bytes (0x19)
+0000: Content-Type: text/html
+<= Recv header, 2 bytes (0x2)
+0000: 
+<= Recv data, 7832 bytes (0x1e98)
+0000: 11ed4
+0007: <!doctype html>.<html lang="en">.<head>..<meta charset="UTF-8">.
+0047: .<title>.............. .... ........................ .... Softwa
+0087: reAcademy.bg</title>..<!-- Mobile Specific Meta -->..<meta name=
+00c7: "viewport" content="width=device-width, initial-scale=1">.<meta 
+0107: name="google-site-verification" content="sJW9Mr_NsRLJNK-Z8w2MhXV
+0147: gQkCIwHj-FF3Ge4zGBgQ" />..<link rel="stylesheet" href="assets/cs
+0187: s/owl.carousel.css">..<link rel="stylesheet" href="assets/css/fo
+01c7: ntawesome-all.css">..<link rel="stylesheet" href="assets/css/fla
+0207: ticon.css">..<link rel="stylesheet" type="text/css" href="assets
+0247: /css/meanmenu.css">..<link rel="stylesheet" href="assets/css/boo
+0287: tstrap.min.css">..<link rel="stylesheet" href="assets/css/video.
+02c7: min.css">..<link rel="stylesheet" href="assets/css/lightbox.css"
+0307: >..<link rel="stylesheet" href="assets/css/animate.min.css">..<l
+0347: ink rel="stylesheet" href="assets/css/progess.css">..<link rel="
+0387: stylesheet" href="assets/css/style.css">..<link rel="stylesheet"
+03c7:  href="assets/css/responsive.css">...<link rel="stylesheet" href
+0407: ="assets/css/colors/color-2.css">..<link rel="stylesheet" href="
+0447: assets/css/new.css">.............<script src='https://www.google
+0487: .com/recaptcha/api.js'></script>.....</head>..<body>..<div id="p
+04c7: reloader"></div>...<!-- Start of Header section...==============
+0507: =============================== -->...<header>....<div id="main-
+0547: menu"  class="main-menu-container header-style-2">.....<div clas
+0587: s="header-top">..........<div class="container">.......<div clas
+05c7: s="row">........<div class="col-md-4">.........<div class="heade
+0607: r-top-text">..........<span><i class="fas fa-phone-square" style
+0647: ="color:#d3d3d3;"></i> 070016004</span> &nbsp;&nbsp; <span><i cl
+0687: ass="fas fa-envelope" style="color:#d3d3d3;"></i> office@softwar
+06c7: eacademy.bg</span>.........</div>........</div>........<div clas
+0707: s="col-md-8 text-right">.........<div class="header-top-bar ul-l
+0747: i">...................<ul>...........<li><a data-toggle="modal" 
+0787: data-target="#myModal" href="#"><i class="fas fa-user" style="co
+07c7: lor:#d3d3d3;"></i> ........ .. .............. ....</a>..........
+0807: ..</li>...........<li><a data-toggle="modal" data-target="#myMod
+0847: al2" href="#"><i class="fas fa-lock" style="color:#d3d3d3;"></i>
+0887:  ......................</a>.......................</li>.........
+08c7: .</ul>..................</div>........</div>.......</div>......<
+0907: /div>.....</div>.....<div  class="main-menu">......<div class="c
+0947: ontainer">.......<div class="navbar-default">........<div class=
+0987: "navbar-header float-left">.........<a class="navbar-brand text-
+09c7: uppercase" href="https://softwareacademy.bg"><img src="https://s
+0a07: oftwareacademy.bg/img/softa_ns.png" alt="logo"></a>........</div
+0a47: ><!-- /.navbar-header -->................<!-- Collect the nav li
+0a87: nks, forms, and other content for toggling -->........<nav class
+0ac7: ="navbar-menu float-right">.........<div class="nav-menu ul-li">
+0b07: ..........<ul>.....................<li><a href="https://software
+0b47: academy.bg/index.php?q=news">............</a></li>..............
+0b87: .................<li class="menu-item-has-children ul-li-block">
+0bc7: <a href="https://softwareacademy.bg/index.php?q=courses">.......
+0c07: ......... <i class="fas fa-angle-down" style="color:#BEBEBE;"></
+0c47: i></a>...........<ul class="sub-menu" style="width:1200px; left:
+0c87: -615px; border-top-width:0px; margin-top:15px;"> ............<di
+0cc7: v class="row p-3 pb-1">..<!--.----------------------------------
+0d07: --- -->...............................<div class="col-md-4 p-3">
+0d47: ..............<h4><span>............ ................</span></h4
+0d87: >...........................<li>...............<a href="https://
+0dc7: softwareacademy.bg/index.php?q=wpfree">................<table st
+0e07: yle="border:0px; padding:5px;">.................<tbody>.........
+0e47: .........<tr>...................<td style="width:20%; padding-ri
+0e87: ght:10px; vertical-align: top;">....................<img src="ht
+0ec7: tps://marketingexpert.bg/siteadmin/img_uploads/headers/descripti
+0f07: on_course_99_sq.jpg" style="border-radius: 5px; margin-right:15p
+0f47: x; ">...................</td>...................<td>............
+0f87: ........<b>.................. .. WordPress</b>..................
+0fc7: ..<br>....................<span style="font-weight: normal;">...
+1007: ........... ...... .... ................ .. WordPress</span>....
+1047: ...................................<div class="trend-badge text-
+1087: uppercase bold-font videolabel"><i class="fas fa-video"></i> ...
+10c7: ....... ........</div>.......................................<di
+1107: v class="trend-badge text-uppercase bold-font trending"><i class
+1147: ="fas fa-gift"></i> ..................</div>....................
+1187: ..................</td>..................</tr>.................<
+11c7: /tbody>................</table>...............</a>..............
+1207: </li>...........................<li>...............<a href="http
+1247: s://softwareacademy.bg/index.php?q=cplusplusfree">..............
+1287: ..<table style="border:0px; padding:5px;">.................<tbod
+12c7: y>..................<tr>...................<td style="width:20%;
+1307:  padding-right:10px; vertical-align: top;">....................<
+1347: img src="https://marketingexpert.bg/siteadmin/img_uploads/header
+1387: s/description_course_100_sq.jpg" style="border-radius: 5px; marg
+13c7: in-right:15px; ">...................</td>...................<td>
+1407: ....................<b>.................. .. C++</b>............
+1447: ........<br>....................<span style="font-weight: normal
+1487: ;">.................... .... .. ........ .... ................ .
+14c7: ................. ..........</span>.............................
+1507: ..........<div class="trend-badge text-uppercase bold-font video
+1547: label"><i class="fas fa-video"></i> .......... ........</div>...
+1587: ....................................<div class="trend-badge text
+15c7: -uppercase bold-font trending"><i class="fas fa-gift"></i> .....
+1607: .............</div>......................................</td>..
+1647: ................</tr>.................</tbody>................</
+1687: table>...............</a>..............</li>....................
+16c7: .......<li>...............<a href="https://softwareacademy.bg/in
+1707: dex.php?q=cshfree">................<table style="border:0px; pad
+1747: ding:5px;">.................<tbody>..................<tr>.......
+1787: ............<td style="width:20%; padding-right:10px; vertical-a
+17c7: lign: top;">....................<img src="https://marketingexper
+1807: t.bg/siteadmin/img_uploads/headers/description_course_101_sq.jpg
+1847: " style="border-radius: 5px; margin-right:15px; ">..............
+1887: .....</td>...................<td>....................<b>........
+18c7: ................ .... C#</b>....................<br>............
+1907: ........<span style="font-weight: normal;">C# ........ .........
+1947: ..... ...................... .... .............., ........ .....
+1987: ............. ......................</span>.....................
+19c7: ..................<div class="trend-badge text-uppercase bold-fo
+1a07: nt videolabel"><i class="fas fa-video"></i> .......... ........<
+1a47: /div>.......................................<div class="trend-ba
+1a87: dge text-uppercase bold-font trending"><i class="fas fa-gift"></
+1ac7: i> ..................</div>.....................................
+1b07: .</td>..................</tr>.................</tbody>..........
+1b47: ......</table>...............</a>..............</li>............
+1b87: ...............<li>...............<a href="https://softwareacade
+1bc7: my.bg/index.php?q=gamedevfree">................<table style="bor
+1c07: der:0px; padding:5px;">.................<tbody>.................
+1c47: .<tr>...................<td style="width:20%; padding-right:10px
+1c87: ; vertical-align: top;">....................<img src="https://ma
+1cc7: rketingexpert.bg/siteadmin/img_uploads/headers/description_cours
+1d07: e_102_sq.jpg" style="border-radius: 5px; margin-right:15px; ">..
+1d47: .................</td>...................<td>...................
+1d87: .<b>.................. .. Game Development</b>..................
+1dc7: ..<br>....................<span style="font-weight: normal;">...
+1e07: . .... .............. ...... .... ...................... .......
+1e47: ....... .... ........</span>....................................
+1e87: ...<div class="tr
+<= Recv data, 131 bytes (0x83)
+0000: end-badge text-uppercase bold-font videolabel"><i class="fas fa-
+0040: video"></i> .......... ........</div>...........................
+0080: ...
+<= Recv data, 8184 bytes (0x1ff8)
+0000: .........<div class="trend-badge text-uppercase bold-font trendi
+0040: ng"><i class="fas fa-gift"></i> ..................</div>........
+0080: ..............................</td>..................</tr>......
+00c0: ...........</tbody>................</table>...............</a>..
+0100: ............</li>...........................<li>...............<
+0140: a href="https://softwareacademy.bg/index.php?q=showcourse&id=11"
+0180: >................<table style="border:0px; padding:5px;">.......
+01c0: ..........<tbody>..................<tr>...................<td st
+0200: yle="width:20%; padding-right:10px; vertical-align: top;">......
+0240: ..............<img src="https://marketingexpert.bg/siteadmin/img
+0280: _uploads/headers/description_course_103_sq.jpg" style="border-ra
+02c0: dius: 5px; margin-right:15px; ">...................</td>........
+0300: ...........<td>....................<b>.................. .. Linu
+0340: x ..............</b>....................<br>....................
+0380: <span style="font-weight: normal;">.................... .... .. 
+03c0: .................. .............. .... Linux</span>.............
+0400: ..........................<div class="trend-badge text-uppercase
+0440:  bold-font videolabel"><i class="fas fa-video"></i> .......... .
+0480: .......</div>.......................................<div class="
+04c0: trend-badge text-uppercase bold-font trending"><i class="fas fa-
+0500: gift"></i> ..................</div>.............................
+0540: .........</td>..................</tr>.................</tbody>..
+0580: ..............</table>...............</a>..............</li>....
+05c0: .......................<li>...............<a class="" href="http
+0600: s://softwareacademy.bg/index.php?q=courses&type=online"><i class
+0640: ="fas fa-chevron-circle-right"></i> ...... ............</a>.....
+0680: .........</li>..................................................
+06c0: ...</div>......<!--.------------------------------------- -->...
+0700: .................<div class="col-md-4 p-3" >..............<h4><s
+0740: pan>.................. ..........</span></h4>...................
+0780: ......................<li>...............<a href="https://softwa
+07c0: reacademy.bg/index.php?q=course&id=161">................<table s
+0800: tyle="border:0px; padding:5px;">.................<tbody>........
+0840: ..........<tr>...................<td style="width:20%; padding-r
+0880: ight:10px; vertical-align: top;">....................<img src="h
+08c0: ttps://marketingexpert.bg/siteadmin/img_uploads/headers/descript
+0900: ion_course_161_sq.jpg" style="border-radius: 5px; margin-right:1
+0940: 5px; ">...................</td>...................<td>..........
+0980: ..........<b>Typescript & Angular</b>....................<br>...
+09c0: .................<span style="font-weight: normal;">............
+0a00: .. TypeScript .. Angular</span>.................................
+0a40: .....</td>..................</tr>.................</tbody>......
+0a80: ..........</table>...............</a>..............</li>........
+0ac0: .................................<li>...............<a href="htt
+0b00: ps://softwareacademy.bg/index.php?q=wpfree">................<tab
+0b40: le style="border:0px; padding:5px;">.................<tbody>....
+0b80: ..............<tr>...................<td style="width:20%; paddi
+0bc0: ng-right:10px; vertical-align: top;">....................<img sr
+0c00: c="https://marketingexpert.bg/siteadmin/img_uploads/headers/desc
+0c40: ription_course_99_sq.jpg" style="border-radius: 5px; margin-righ
+0c80: t:15px; ">...................</td>...................<td>.......
+0cc0: .............<b>.................. .. WordPress</b>.............
+0d00: .......<br>....................<span style="font-weight: normal;
+0d40: ">.............. ...... .... ................ .. WordPress</span
+0d80: >.......................................<div class="trend-badge 
+0dc0: text-uppercase bold-font trending"><i class="fas fa-gift"></i> .
+0e00: .................</div>......................................</t
+0e40: d>..................</tr>.................</tbody>..............
+0e80: ..</table>...............</a>..............</li>................
+0ec0: .........................<li>...............<a href="https://sof
+0f00: twareacademy.bg/index.php?q=cplusplusfree">................<tabl
+0f40: e style="border:0px; padding:5px;">.................<tbody>.....
+0f80: .............<tr>...................<td style="width:20%; paddin
+0fc0: g-right:10px; vertical-align: top;">....................<img src
+1000: ="https://marketingexpert.bg/siteadmin/img_uploads/headers/descr
+1040: iption_course_100_sq.jpg" style="border-radius: 5px; margin-righ
+1080: t:15px; ">...................</td>...................<td>.......
+10c0: .............<b>.................. .. C++</b>...................
+1100: .<br>....................<span style="font-weight: normal;">....
+1140: ................ .... .. ........ .... ................ ........
+1180: .......... ..........</span>....................................
+11c0: ...<div class="trend-badge text-uppercase bold-font trending"><i
+1200:  class="fas fa-gift"></i> ..................</div>..............
+1240: ........................</td>..................</tr>............
+1280: .....</tbody>................</table>...............</a>........
+12c0: ......</li>.........................................<li>........
+1300: .......<a href="https://softwareacademy.bg/index.php?q=cshfree">
+1340: ................<table style="border:0px; padding:5px;">........
+1380: .........<tbody>..................<tr>...................<td sty
+13c0: le="width:20%; padding-right:10px; vertical-align: top;">.......
+1400: .............<img src="https://marketingexpert.bg/siteadmin/img_
+1440: uploads/headers/description_course_101_sq.jpg" style="border-rad
+1480: ius: 5px; margin-right:15px; ">...................</td>.........
+14c0: ..........<td>....................<b>........................ ..
+1500: .. C#</b>....................<br>....................<span style
+1540: ="font-weight: normal;">C# ........ .............. .............
+1580: ......... .... .............., ........ .................. .....
+15c0: .................</span>.......................................<
+1600: div class="trend-badge text-uppercase bold-font trending"><i cla
+1640: ss="fas fa-gift"></i> ..................</div>..................
+1680: ....................</td>..................</tr>................
+16c0: .</tbody>................</table>...............</a>............
+1700: ..</li>.........................................<li>............
+1740: ...<a href="https://softwareacademy.bg/index.php?q=gamedevfree">
+1780: ................<table style="border:0px; padding:5px;">........
+17c0: .........<tbody>..................<tr>...................<td sty
+1800: le="width:20%; padding-right:10px; vertical-align: top;">.......
+1840: .............<img src="https://marketingexpert.bg/siteadmin/img_
+1880: uploads/headers/description_course_102_sq.jpg" style="border-rad
+18c0: ius: 5px; margin-right:15px; ">...................</td>.........
+1900: ..........<td>....................<b>.................. .. Game 
+1940: Development</b>....................<br>....................<span
+1980:  style="font-weight: normal;">.... .... .............. ...... ..
+19c0: .. ...................... .............. .... ........</span>...
+1a00: ....................................<div class="trend-badge text
+1a40: -uppercase bold-font trending"><i class="fas fa-gift"></i> .....
+1a80: .............</div>......................................</td>..
+1ac0: ................</tr>.................</tbody>................</
+1b00: table>...............</a>..............</li>....................
+1b40: .......<li>...............<a class="" href="https://softwareacad
+1b80: emy.bg/index.php?q=courses&type=nonpro"><i class="fas fa-chevron
+1bc0: -circle-right"></i> ...... ............</a>..............</li>..
+1c00: ...........</div>.....<!--.-------------------------------------
+1c40:  -->............................<div class="col-md-4 p-3" style=
+1c80: "background-color:#e6ffe6;">..............<h4><span style="color
+1cc0: :black;">................ ................</span></h4>..........
+1d00: ...................<li><a href="https://softwareacademy.bg/index
+1d40: .php?q=education&id=12">...............<table style="border:0px;
+1d80:  padding:5px;">................<tr>.................<td style="w
+1dc0: idth:20%; padding-right:10px; vertical-align: top;">............
+1e00: ......<img src="https://marketingexpert.bg/siteadmin/img_uploads
+1e40: /headers/description_course_61_sq.jpg" style="border-radius: 5px
+1e80: ; margin-right:15px; ">.................</td>.................<t
+1ec0: d><span style="font-size:15px;">..................<b>Game Develo
+1f00: pment ................ .... ...................................<
+1f40: div class="trend-badge text-uppercase bold-font entprog"><i clas
+1f80: s="fas fa-briefcase"></i> ..........................</div>......
+1fc0: ............</b><br><span style="font-weight: normal;">.
+<= Recv data, 8184 bytes (0x1ff8)
+0000: ................... .... .. ............ ............ .... .....
+0040: ............. .... .......... ........</span>..................<
+0080: /span>.................</td>................</tr>...............
+00c0: </table>...............</a></li>.............................<li
+0100: ><a href="https://softwareacademy.bg/index.php?q=education&id=10
+0140: ">...............<table style="border:0px; padding:5px;">.......
+0180: .........<tr>.................<td style="width:20%; padding-righ
+01c0: t:10px; vertical-align: top;">..................<img src="https:
+0200: //marketingexpert.bg/siteadmin/img_uploads/headers/description_c
+0240: ourse_63_sq.jpg" style="border-radius: 5px; margin-right:15px; "
+0280: >.................</td>.................<td><span style="font-si
+02c0: ze:15px;">..................<b>QA - .................. .........
+0300: ........................<div class="trend-badge text-uppercase b
+0340: old-font entprog"><i class="fas fa-briefcase"></i> .............
+0380: .............</div>..................</b><br><span style="font-w
+03c0: eight: normal;">.............. ............ .... ...............
+0400: ....... ................ </span>..................</span>.......
+0440: ..........</td>................</tr>...............</table>.....
+0480: ..........</a></li>.............................<li><a href="htt
+04c0: ps://softwareacademy.bg/index.php?q=cs_academy">...............<
+0500: table style="border:0px; padding:5px;">................<tr>.....
+0540: ............<td style="width:20%; padding-right:10px; vertical-a
+0580: lign: top;">..................<img src="https://marketingexpert.
+05c0: bg/siteadmin/img_uploads/headers/description_course_64_sq.jpg" s
+0600: tyle="border-radius: 5px; margin-right:15px; ">.................
+0640: </td>.................<td><span style="font-size:15px;">........
+0680: ..........<b>C# .. .NET ................ .... ..................
+06c0: .................<div class="trend-badge text-uppercase bold-fon
+0700: t entprog"><i class="fas fa-briefcase"></i> ....................
+0740: ......</div>..................</b><br><span style="font-weight: 
+0780: normal;">C# .. ..............-.................... ........ ....
+07c0:  ........................, .................... .... Microsoft</
+0800: span>..................</span>.................</td>............
+0840: ....</tr>...............</table>...............</a></li>........
+0880: .....................<li><a href="https://softwareacademy.bg/ind
+08c0: ex.php?q=education&id=6">...............<table style="border:0px
+0900: ; padding:5px;">................<tr>.................<td style="
+0940: width:20%; padding-right:10px; vertical-align: top;">...........
+0980: .......<img src="https://marketingexpert.bg/siteadmin/img_upload
+09c0: s/headers/description_course_65_sq.jpg" style="border-radius: 5p
+0a00: x; margin-right:15px; ">.................</td>.................<
+0a40: td><span style="font-size:15px;">..................<b>Python ...
+0a80: ............. .... ...................................<div class
+0ac0: ="trend-badge text-uppercase bold-font entprog"><i class="fas fa
+0b00: -briefcase"></i> ..........................</div>...............
+0b40: ...</b><br><span style="font-weight: normal;">Python .. ........
+0b80:  ...... 5 .... ......-.................. .......... .. .........
+0bc0: . .... .............................</span>..................</s
+0c00: pan>.................</td>................</tr>...............</
+0c40: table>...............</a></li>.............................<li><
+0c80: a href="https://softwareacademy.bg/index.php?q=java_academy">...
+0cc0: ............<table style="border:0px; padding:5px;">............
+0d00: ....<tr>.................<td style="width:20%; padding-right:10p
+0d40: x; vertical-align: top;">..................<img src="https://mar
+0d80: ketingexpert.bg/siteadmin/img_uploads/headers/description_course
+0dc0: _67_sq.jpg" style="border-radius: 5px; margin-right:15px; ">....
+0e00: .............</td>.................<td><span style="font-size:15
+0e40: px;">..................<b>JAVA ................ .... ...........
+0e80: ........................<div class="trend-badge text-uppercase b
+0ec0: old-font entprog"><i class="fas fa-briefcase"></i> .............
+0f00: .............</div>..................</b><br><span style="font-w
+0f40: eight: normal;">.. JAVA ............ .... ......................
+0f80:  .......... ........................ .................. ........
+0fc0: ........</span>..................</span>.................</td>..
+1000: ..............</tr>...............</table>...............</a></l
+1040: i>.............................<li>...............<a class="" hr
+1080: ef="https://softwareacademy.bg/index.php?q=courses&type=pro"><i 
+10c0: class="fas fa-chevron-circle-right"></i> ...... ............</a>
+1100: ..............</li>.............</div>.........................<
+1140: /div>...........</ul>...........</li>............<li><a href="ht
+1180: tps://softwareacademy.bg/index.php?q=jobs">................ ....
+11c0: ........</a></li>...........<li><a href="https://softwareacademy
+1200: .bg/index.php?q=lecturers">.... ..............</a></li>.........
+1240: ..<li class="menu-item-has-children ul-li-block"><a href="#about
+1280: ">.... ...... <i class="fas fa-angle-down" style="color:#BEBEBE;
+12c0: "></i></a>............<ul class="sub-menu">.............<li><a h
+1300: ref="https://softwareacademy.bg/index.php?q=about_us">...... ...
+1340: ... ......?</a></li>.............<li><a href="https://softwareac
+1380: ademy.bg/index.php?q=contacts">.... ................</a></li>...
+13c0: .....................</ul>...........</li>...........</li>......
+1400: ....</ul>.........</div>........</nav>.........<div class="mobil
+1440: e-menu">.........<div class="logo">...................</div>....
+1480: .....<nav>..........<ul>...........<li><a href="https://software
+14c0: academy.bg">............</a></li>...........<li><a href="https:/
+1500: /softwareacademy.bg/index.php?q=courses">................</a>...
+1540: ........<li><a href="https://softwareacademy.bg/index.php?q=jobs
+1580: ">................ ............</a>...........<li><a href="https
+15c0: ://softwareacademy.bg/index.php?q=lecturers">.... ..............
+1600: </a></li>.....................<li><a data-toggle="modal" data-ta
+1640: rget="#myModal2" href="#"><i class="fas fa-lock" style="color:#d
+1680: 3d3d3;"></i> ......................</a></li>...........<li><a da
+16c0: ta-toggle="modal" data-target="#myModal" href="#"><i class="fas 
+1700: fa-user" style="color:#d3d3d3;"></i> ........ .. .............. 
+1740: ....</a>.....................<li><a href="https://softwareacadem
+1780: y.bg/index.php?q=contacts">.... ................</a></li>.......
+17c0: ...</ul>.........</nav>.........</div>.......</div>......</div>.
+1800: ....</div>....</div>............<script type="text/javascript">.
+1840:       var verifyCallback = function(response) {.        alert(re
+1880: sponse);.      };.      var widgetId1;.      var widgetId2;.    
+18c0:   var onloadCallback = function() {.        // Renders the HTML 
+1900: element with id 'example1' as a reCAPTCHA widget..        // The
+1940:  id of the reCAPTCHA widget is assigned to 'widgetId1'..        
+1980: widgetId1 = grecaptcha.render('captch1', {.          'sitekey' :
+19c0:  '6LdZGs0UAAAAABN_aAPrp7hrKtZNDCtIOFQ8ApcG',.          'theme' :
+1a00:  'light'.        });.        widgetId2 = grecaptcha.render(docum
+1a40: ent.getElementById('captch2'), {.          'sitekey' : '6LdZGs0U
+1a80: AAAAABN_aAPrp7hrKtZNDCtIOFQ8ApcG',.          'theme' : 'light'. 
+1ac0:        });.      };.    </script>...............................
+1b00: .........<div class="modal fade" id="myModal2" tabindex="-1" rol
+1b40: e="dialog" aria-hidden="true" >.............<div class="modal-di
+1b80: alog">..............<div class="modal-content">................<
+1bc0: !-- Modal Header -->...............<div class="modal-header back
+1c00: groud-style">................<div class="gradient-bg"></div>....
+1c40: ............<div class="popup-logo">.................<img src="h
+1c80: ttps://marketingexpert.bg/siteadmin//imgs/logoreg.jpg" alt="">..
+1cc0: ..............</div>................<div class="popup-text text-
+1d00: center">.................<h2><span>......</span> ...............
+1d40: .....</h2>.................<p>...... ........ ............, <a d
+1d80: ata-toggle="modal" data-dismiss="modal" href="href="#myModal" da
+1dc0: ta-target="#myModal"><u>............ ......</u>
+1df1: </a></p>................</div>...............</div>.............
+1e31: ...<!-- Modal body -->...............<div class="modal-body">...
+1e71: .............<form class="contact_form" action="#" method="POST"
+1eb1:  enctype="multipart/form-data">.................<div id="regform
+1ef1: ">..................<div class="alert alert-danger d-none" role=
+1f31: "alert" id="alertreg">..................</div>..................
+1f71: <div class="contact-info">...................<input class="name"
+1fb1:  id="hrzzs" name="hrzzs" type="email" placeholder="............ 
+1ff1: .......
+<= Recv data, 8184 bytes (0x1ff8)
+0000: ...*">..................</div>..................<div class="cont
+0040: act-info dspln">...................<input class="email" id="emai
+0080: l" name="email" type="email" placeholder="............ .........
+00c0: .*">..................</div>..................<div class="contac
+0100: t-info">...................<input class="email" id="pass1" name=
+0140: "pass1" type="password" placeholder="................ ..........
+0180: ..*">..................</div>..................<div class="conta
+01c0: ct-info">...................<input class="email" id="pass2" name
+0200: ="pass2" type="password" placeholder="................ .........
+0240: ....... ................*">..................</div>.............
+0280: .....<div class="contact-info">...................<input class="
+02c0: email" id="name" name="name" type="text" placeholder="..........
+0300: .. ......*">..................</div>..................<div class
+0340: ="contact-info">...................<input class="email" id="phon
+0380: e" name="phone" type="text" placeholder="............ ..........
+03c0: ....">..................</div>..................<div class="cont
+0400: act-info text-left">...................<input type="checkbox" na
+0440: me="agree" value="1" id="chb1" style="height:18px; padding:0px; 
+0480: margin:0px; width:18px; float:left;"> <label for="chb1" style="m
+04c0: argin-bottom:15px; margin-left:5px;">................(....) ....
+0500: .. .. <u><a href="https://softwareacademy.bg/index.php?q=conditi
+0540: ons" target="_blank">.................. .... ..........</a></u>
+0581: </label>..................</div>................................
+05c1: ....<div class="contact-info text-left mb-2">...................
+0601: <div id="captch1"></div>..................</div>................
+0641: ....................<div class="nws-button text-center white tex
+0681: t-capitalize">...................<button type="button" id="subre
+06c1: g">......................</button> ..................</div>.....
+0701: ............</div>.................<div id="regformsuccess" clas
+0741: s="d-none">..................<div class="alert alert-success" ro
+0781: le="alert" id="alertregok">..................</div>.............
+07c1: ....</div>................................</form>...............
+0801: .<div class="log-in-footer text-center">.................<p>* ..
+0841: ...................... ............</p>................</div>...
+0881: ............</div>..............</div>.............</div>.......
+08c1: .....</div>............<div class="modal fade" id="myModal" tabi
+0901: ndex="-1" role="dialog" aria-hidden="true">.............<div cla
+0941: ss="modal-dialog">..............<div class="modal-content">.....
+0981: ...........<!-- Modal Header -->...............<div class="modal
+09c1: -header backgroud-style">................<div class="gradient-bg
+0a01: "></div>................<div class="popup-logo">................
+0a41: .<img src="https://marketingexpert.bg/siteadmin//imgs/logoreg.jp
+0a81: g" alt="">................</div>................<div class="popu
+0ac1: p-text text-center">.................<h2><span>............</spa
+0b01: n> .. .............. ....</h2>.................<p>..............
+0b41: .... .............. ....-........:</p>................</div>....
+0b81: ...........</div>...............<!-- Modal body -->.............
+0bc1: ..<div class="modal-body">...............................<form c
+0c01: lass="contact_form" action="#" method="POST" enctype="multipart/
+0c41: form-data">.................<div class="alert alert-danger d-non
+0c81: e" role="alert" id="alertlog">..................</div>..........
+0cc1: .......<div class="contact-info">..................<input class=
+0d01: "name" name="hrzzs" id="hrzzslg" type="email" placeholder=".....
+0d41: ....... ..........*">.................</div>.................<di
+0d81: v class="contact-info dspln">...................<input class="em
+0dc1: ail" id="emaillg" name="email" type="email" placeholder=".......
+0e01: ..... ..........*">.................</div>.................<div 
+0e41: class="contact-info">..................<input class="email" name
+0e81: ="pass" id="passlg" type="password" placeholder="...............
+0ec1: . ............*">.................</div>.................<div cl
+0f01: ass="contact-info text-left">...................<input type="che
+0f41: ckbox" name="savelogin" value="1" id="chb2" style="height:18px; 
+0f81: padding:0px; margin:0px; width:18px; float:left;" checked> <labe
+0fc1: l for="chb1" style="margin-bottom:15px; margin-left:5px;">......
+1001: ........ ....!</label>..................</div>..................
+1041: ................<div class="contact-info text-left mb-2">.......
+1081: ............<div id="captch2"></div>.................</div>.....
+10c1: .............................<div class="nws-button text-center 
+1101: white text-capitalize">..................<button type="button" i
+1141: d="butlog">........ .. ..............</button> .................
+1181: </div>..........................................................
+11c1: ........</form>................<div class="alt-text text-center"
+1201: >..............?</div>................<div class="log-in-footer 
+1241: text-center">.................<p><a href="https://softwareacadem
+1281: y.bg/index.php?fpass=1">...... ...... .................. .......
+12c1: ......... ...., ........ ................ .... ........ ........
+1301:  >>
+1306: </a></p>................</div>...............</div>.............
+1346: .</div>.............</div>............</div>...</header>. .<!-- 
+1386: Start of Header section. ..=====================================
+13c6: ======== -->......<!-- Start of slider section....==============
+1406: =============================== -->....<section id="slide" class
+1446: ="slider-section pt150">.....<div id="slider-item" class="slider
+1486: -item-details">...........<div  class="slider-area slider-bg-1 r
+14c6: elative-position" style="background-image: url(https://marketing
+1506: expert.bg/siteadmin//img_uploads/sliders/slider1259092215_slider
+1546: .jpg)">.......<div class="slider-text">........<div class="secti
+1586: on-title mb20 headline text-center ">.........<div class="layer-
+15c6: 1-1">..........<span class="subtitle text-uppercase">Android Dev
+1606: elopment</span>.........</div>.........<div class="layer-1-3">..
+1646: ........<h2>.......... Android Developer</h2>.........</div>....
+1686: ....</div>........<div class="layer-1-4">.........<div id="cours
+16c6: e-btn">..........<div class="genius-btn  text-center text-upperc
+1706: ase ul-li-block bold-font">...........<a href="https://softwarea
+1746: cademy.bg/index.php?q=education&id=13">............ .... <i clas
+1786: s="fas fa-caret-right"></i></a>..........</div>.........</div>..
+17c6: ......</div>.......</div>.......</div>...........<div  class="sl
+1806: ider-area slider-bg-1 relative-position" style="background-image
+1846: : url(https://marketingexpert.bg/siteadmin//img_uploads/sliders/
+1886: slider1785548099_slider.jpg)">.......<div class="slider-text">..
+18c6: ......<div class="section-title mb20 headline text-center ">....
+1906: .....<div class="layer-1-1">..........<span class="subtitle text
+1946: -uppercase">.......... QA ..............</span>.........</div>..
+1986: .......<div class="layer-1-3">..........<h2>.............. .. QA
+19c6: </h2>.........</div>........</div>........<div class="layer-1-4"
+1a06: >.........<div id="course-btn">..........<div class="genius-btn 
+1a46:  text-center text-uppercase ul-li-block bold-font">...........<a
+1a86:  href="https://softwareacademy.bg/index.php?q=course&id=107">...
+1ac6: ......... .... .................. <i class="fas fa-caret-right">
+1b06: </i></a>..........</div>.........</div>........</div>.......</di
+1b46: v>.......</div>................</div>....</section>..<!-- End of
+1b86:  slider section...============================================= 
+1bc6: -->.....<!-- Start of Search Courses...=========================
+1c06: ==================== -->...<section id="search-course" class="se
+1c46: arch-course-section search-course-secound">....<div class="conta
+1c86: iner">.....<div class="search-counter-up">......<div class="row"
+1cc6: >.......<div class="col-md-3">........<div class="counter-icon-n
+1d06: umber "  >.........<div class="counter-icon">..........<i class=
+1d46: "text-gradiant flaticon-favorites-button"></i>.........</div>...
+1d86: ......<div class="counter-number">..........<span class="counter
+1dc6: -count bold-font">84730 </span><span></span>..........<p>.......
+1e06: ......... .... ........</p>.........</div>........</div>.......<
+1e46: /div>.......<!-- /counter -->........<div class="col-md-3">.....
+1e86: ...<div class="counter-icon-number "  >.........<div class="coun
+1ec6: ter-icon">..........<i class="text-gradiant flaticon-book"></i>.
+1f06: ........</div>.........<div class="counter-number">..........<sp
+1f46: an class="counter-count bold-font">117436</span>..........<p>...
+1f86: ............... ............ ........</p>.........</div>........
+1fc6: </div>.......</div>.......<!-- /counter -->.......
+<= Recv data, 8184 bytes (0x1ff8)
+0000: .<div class="col-md-3">........<div class="counter-icon-number "
+0040:   >.........<div class="counter-icon">..........<i class="text-g
+0080: radiant flaticon-graduation-hat"></i>.........</div>.........<di
+00c0: v class="counter-number">..........<span class="counter-count bo
+0100: ld-font">379</span>..........<p>..........................</p>..
+0140: .......</div>........</div>.......</div>.......<!-- /counter -->
+0180: ........<div class="col-md-3">........<div class="counter-icon-n
+01c0: umber "  >.........<div class="counter-icon">..........<i class=
+0200: "text-gradiant flaticon-group"></i>.........</div>.........<div 
+0240: class="counter-number">..........<span class="counter-count bold
+0280: -font">122</span><span></span>..........<p>.....................
+02c0: . ............</p>.........</div>........</div>.......</div>....
+0300: ...<!-- /counter -->......</div>.....</div>....</div>...</sectio
+0340: n>..<!-- End of Search Courses...===============================
+0380: ============== -->...<!-- Start latest section...===============
+03c0: ============================== -->...<section id="latest-area" c
+0400: lass="latest-area-section home-page-three">....<div class="conta
+0440: iner">.....<div class="row">......<div class="col-md-4">.......<
+0480: div class="latest-area-content">........<div class="section-titl
+04c0: e-2 mb65 headline text-left "  >.........<h2>................ <s
+0500: pan>............</span></h2>........</div>........<div class="la
+0540: test-news-posts">.................<div class="latest-news-area "
+0580:   >..........<div class="latest-news-thumbnile relative-position
+05c0: ">...........<img src="https://marketingexpert.bg/siteadmin//img
+0600: _uploads/blogs/blog1265750002_sq.jpg"" alt="">...........<div cl
+0640: ass="hover-search">............<i class="fas fa-search"></i>....
+0680: .......</div>...........<div class="blakish-overlay"></div>.....
+06c0: .....</div>..........<div class="date-meta">...........<i class=
+0700: "fas fa-calendar-alt"></i> 14.Sep.2021.........</div>..........<
+0740: h3 class="latest-title bold-font"><a href="https://softwareacade
+0780: my.bg/index.php?q=read_news&id=322">........ ............ .... .
+07c0: ................. Python?</a></h3>..........<div class="course-v
+0800: iewer ul-li">...........<ul>............<li><a href="https://sof
+0840: twareacademy.bg/index.php?q=read_news&id=322"><i class="fas fa-e
+0880: ye"></i> 418</a></li>...........</ul>..........</div>.........</
+08c0: div>.........<!-- /post -->.................<div class="latest-n
+0900: ews-area "  >..........<div class="latest-news-thumbnile relativ
+0940: e-position">...........<img src="https://marketingexpert.bg/site
+0980: admin//img_uploads/blogs/blog2114977210_sq.jpg"" alt="">........
+09c0: ...<div class="hover-search">............<i class="fas fa-search
+0a00: "></i>...........</div>...........<div class="blakish-overlay"><
+0a40: /div>..........</div>..........<div class="date-meta">..........
+0a80: .<i class="fas fa-calendar-alt"></i> 02.Sep.2021.........</div>.
+0ac0: .........<h3 class="latest-title bold-font"><a href="https://sof
+0b00: twareacademy.bg/index.php?q=read_news&id=317">5 .............. .
+0b40: ... .............. ...... ......................</a></h3>.......
+0b80: ...<div class="course-viewer ul-li">...........<ul>............<
+0bc0: li><a href="https://softwareacademy.bg/index.php?q=read_news&id=
+0c00: 317"><i class="fas fa-eye"></i> 442</a></li>...........</ul>....
+0c40: ......</div>.........</div>.........<!-- /post -->..............
+0c80: ...<div class="view-all-btn bold-font "  >..........<a href="htt
+0cc0: ps://softwareacademy.bg/index.php?q=news">............ .........
+0d00: ... <i class="fas fa-chevron-circle-right"></i></a>.........</di
+0d40: v>........</div>.......</div>......</div>......<!-- /latest-news
+0d80:  -->......<div class="col-md-4">.......<div class="latest-area-c
+0dc0: ontent">........<div class="section-title-2 mb65 headline text-l
+0e00: eft "  >.........<h2>.................. <span>..........</span><
+0e40: /h2>........</div>...............<div class="latest-events "  >.
+0e80: ........<div class="latest-event-item">..........<div class="eve
+0ec0: nts-date  relative-position text-center">...........<div class="
+0f00: gradient-bdr"></div>...........<span class="event-date bold-font
+0f40: ">07</span>...........Dec 2021.........</div>..........<div clas
+0f80: s="event-text">...........<a href="https://softwareacademy.bg/in
+0fc0: dex.php?q=course&id=109"><h3 class="latest-title bold-font mb-0"
+1000: >........................ .. PHP .. MySQL</h3>...........Back-en
+1040: d ..................................</a>...........<div class="c
+1080: ourse-meta">...................................<div class="trend
+10c0: -badge text-uppercase bold-font entprog"><i class="fas fa-briefc
+1100: ase"></i> ..........................</div>......................
+1140: </div>..........</div>.........</div>........</div>.............
+1180: ..<div class="latest-events "  >.........<div class="latest-even
+11c0: t-item">..........<div class="events-date  relative-position tex
+1200: t-center">...........<div class="gradient-bdr"></div>...........
+1240: <span class="event-date bold-font">15</span>...........Oct 2021.
+1280: ........</div>..........<div class="event-text">...........<a hr
+12c0: ef="https://softwareacademy.bg/index.php?q=education&id=12"><h3 
+1300: class="latest-title bold-font mb-0">Game Development ...........
+1340: ..... .... ..................</h3>..............................
+1380: . .... .. ............ ............ .... .................. ....
+13c0:  .......... ..................</a>...........<div class="course-
+1400: meta">...................................<div class="trend-badge
+1440:  text-uppercase bold-font entprog"><i class="fas fa-briefcase"><
+1480: /i> ..........................</div>......................</div>
+14c0: ..........</div>.........</div>........</div>...............<div
+1500:  class="latest-events "  >.........<div class="latest-event-item
+1540: ">..........<div class="events-date  relative-position text-cent
+1580: er">...........<div class="gradient-bdr"></div>...........<span 
+15c0: class="event-date bold-font">25</span>...........Oct 2021.......
+1600: ..</div>..........<div class="event-text">...........<a href="ht
+1640: tps://softwareacademy.bg/index.php?q=education&id=6"><h3 class="
+1680: latest-title bold-font mb-0">Python ................ .... ......
+16c0: ............</h3>...........Python .. ........ ...... 5 .... ...
+1700: ...-.................. .......... .. .......... .... ...........
+1740: ............................</a>...........<div class="course-me
+1780: ta">...................................<div class="trend-badge t
+17c0: ext-uppercase bold-font entprog"><i class="fas fa-briefcase"></i
+1800: > ..........................</div>......................</div>..
+1840: ........</div>.........</div>........</div>.....................
+1880: ..<div class="view-all-btn bold-font "  >.........<a  href="http
+18c0: s://softwareacademy.bg/index.php?q=courses">............ .......
+1900: .......  <i class="fas fa-calendar-alt"></i></a>........</div>..
+1940: .....</div>......</div>......<!-- /events -->.......<div class="
+1980: col-md-4">.......<div class="latest-area-content">........<div c
+19c0: lass="section-title-2 mb65 headline text-left "  >.........<h2>.
+1a00: ............... <span>..........</span></h2>........</div>......
+1a40: .................<div class="latest-video-poster relative-positi
+1a80: on mb20 "  >.........<img src="https://marketingexpert.bg/sitead
+1ac0: min//img_uploads/gallery/video_thumb1289239141_big.jpg" alt="">.
+1b00: ........<div class="video-play-btn text-center gradient-bg">....
+1b40: ......<a class="popup-with-zoom-anim" href="https://www.youtube.
+1b80: com/watch?v=7evA6TWIep4"><i class="fas fa-play"></i></a>........
+1bc0: .</div>........</div>........<h3 class="latest-title bold-font "
+1c00:  ><a class="popup-with-zoom-anim" href="https://www.youtube.com/
+1c40: watch?v=7evA6TWIep4">.......... .......... .... .............. .
+1c80: ... .......... .... .................... .... Web development</a
+1cc0: ></h3>........<p class="mb25 " >........ .......................
+1d00: ... ................ .... Web Development, .......... ..........
+1d40: .... .... ........ .............. .... .............. </p>......
+1d80: ..<div class="view-all-btn bold-font "  >.........<a href="https
+1dc0: ://softwareacademy.bg/index.php?q=videos">............ .........
+1e00: . <i class="fas fa-chevron-circle-right"></i></a>........</div>.
+1e40: ......</div>......</div>......<!-- /. -->.....</div>....</div>..
+1e80: .</section>..<!-- End latest section...=========================
+1ec0: ==================== -->...<!-- Start why choose section...=====
+1f00: ======================================== -->...<section id="why-
+1f40: choose" class="why-choose-section backgroud-style">....<div clas
+1f80: s="container">.....<div class="section-title mb20 headline text-
+1fc0: center "  >......<span class="subtitle text-uppercase">.
+<= Recv data, 8184 bytes (0x1ff8)
+0000: ....... ............ .............. ......?</span>......<h2>....
+0040: ........ ....................</h2>.....</div>.....<div class="ex
+0080: tra-features-content">......<div class="row">.......<div class="
+00c0: col-md-4 col-sm-6">........<div class="extra-left">.........<div
+0100:  class="extra-left-content "  >..........<div class="extra-icon-
+0140: text text-left">...........<div class="features-icon gradient-bg
+0180:  text-center">............<i class="flaticon-maths-class-materia
+01c0: ls-cross-of-a-pencil-and-a-ruler"></i>...........</div>.........
+0200: ..<div class="features-text">............<div class="features-te
+0240: xt-title">.............<h3>................ ..................</
+0280: h3>............</div>............<div class="features-text-dec">
+02c0: .............<span>......-.............. ................ .. ...
+0300: ....., .......... ........ .... ............, ..................
+0340:  ...................</span>............</div>...........</div>..
+0380: ........</div>.........</div>.........<!-- // extra-left-content
+03c0:  --> ..........<div class="extra-left-content "  >..........<div
+0400:  class="extra-icon-text">...........<div class="features-icon gr
+0440: adient-bg text-center">............<i class=" flaticon-clipboard
+0480: -with-pencil"></i>...........</div>...........<div class="featur
+04c0: es-text pt25">............<div class="features-text-title">.....
+0500: ........<h3>......-.............. ..............</h3>...........
+0540: .</div>............<div class="features-text-dec">.............<
+0580: span>.. ...... ........ .... ......-.............. .............
+05c0: ..., .......... .......... .... ...............</span>..........
+0600: ..</div>...........</div>..........</div>.........</div>........
+0640: .<!-- // extra-left-content -->..........<div class="extra-left-
+0680: content "  >..........<div class="extra-icon-text">...........<d
+06c0: iv class="features-icon gradient-bg text-center">............<i 
+0700: class="flaticon-list"></i>...........</div>...........<div class
+0740: ="features-text pt25">............<div class="features-text-titl
+0780: e">.............<h3>................ ............</h3>..........
+07c0: ..</div>............<div class="features-text-dec">.............
+0800: <span>............ .............. .... ................ .. .....
+0840: ......... .. .......... .....</span>............</div>..........
+0880: .</div>..........</div>.........</div>.........<!-- // extra-lef
+08c0: t-content -->........</div><!-- /extra-left -->.......</div>....
+0900: ...<!-- /col-sm-3 -->........<div class="col-sm-4">........<div 
+0940: class="extra-pic text-center "  >.........<img src="https://soft
+0980: wareacademy.bg/pictures/grltop2.png" alt="img">........</div>...
+09c0: ....</div>.......<!-- /col-sm-6 -->........<div class="col-md-4 
+0a00: col-sm-6">........<div class="extra-right">.........<div class="
+0a40: extra-left-content "  >..........<div class="extra-icon-text tex
+0a80: t-right">...........<div class="features-icon gradient-bg text-c
+0ac0: enter">............<i class="flaticon-ruler-and-pencil"></i>....
+0b00: .......</div>...........<div class="features-text pt25">........
+0b40: ....<div class="features-text-title">.............<h3>..........
+0b80:  ........ ..............</h3>............</div>............<div 
+0bc0: class="features-text-dec">.............<span>....-..............
+0c00: .. ........ .... ............ ................ .... ............
+0c40: .....</span>............</div>...........</div>..........</div>.
+0c80: ........</div>.........<!-- // extra-left-content -->..........<
+0cc0: div class="extra-left-content "  >..........<div class="extra-ic
+0d00: on-text text-right">...........<div class="features-icon gradien
+0d40: t-bg text-center">............<i class="flaticon-clipboards"></i
+0d80: >...........</div>...........<div class="features-text pt25">...
+0dc0: .........<div class="features-text-title">.............<h3>.....
+0e00: ....... ....................</h3>............</div>............<
+0e40: div class="features-text-dec">.............<span>.. ...... .....
+0e80: ........... ...... .............. .... .... ....................
+0ec0:  .... ................ .................</span>............</div
+0f00: >...........</div>..........</div>.........</div>.........<!-- /
+0f40: / extra-left-content -->..........<div class="extra-left-content
+0f80:  "  >..........<div class="extra-icon-text text-right">.........
+0fc0: ..<div class="features-icon gradient-bg text-center">...........
+1000: .<i class="flaticon-pie-chart"></i>...........</div>...........<
+1040: div class="features-text pt25">............<div class="features-
+1080: text-title">.............<h3>.................... .... .........
+10c0: ...</h3>............</div>............<div class="features-text-
+1100: dec">.............<span>.................... .... ............ .
+1140: ............... .................... .............. ............
+1180: .. .... ...................... .................</span>.........
+11c0: ...</div>...........</div>..........</div>.........</div>.......
+1200: ..<!-- // extra-left-content -->........</div><!-- /extra-left -
+1240: ->.......</div>.......<!-- /col-sm-3 -->......</div><!-- /row --
+1280: >.....</div>....</div>...</section>..<!-- End why choose section
+12c0: ...============================================= -->.....<!-- St
+1300: art of best course...===========================================
+1340: == -->...<section id="best-course" class="best-course-section be
+1380: st-course-v2">....<div class="container">.....<div class="sectio
+13c0: n-title mb45 headline text-center "  >......<span class="subtitl
+1400: e text-uppercase">........ ............................</span>..
+1440: ....<h2>........................ <span>..............</span></h2
+1480: >.....</div>.....<div class="best-course-area mb45">......<div c
+14c0: lass="row">..................................<div class="col-md-
+1500: 3">........<div class="best-course-pic-text relative-position " 
+1540:  style="height:100%;">.........<div class="best-course-pic relat
+1580: ive-position">..........<img src="https://marketingexpert.bg/sit
+15c0: eadmin/img_uploads/headers/description_course_192_370.jpg" alt="
+1600: ">...................<div class="course-price text-center gradie
+1640: nt-bg">...........<span>11 Oct 2021</span>..........</div>......
+1680: .............<div class="course-rate ul-li">...........<ul>.....
+16c0: .......<li><i class="fas fa-star"></i></li>............<li><i cl
+1700: ass="fas fa-star"></i></li>............<li><i class="fas fa-star
+1740: "></i></li>............<li><i class="fas fa-star"></i></li>.....
+1780: .......<li><i class="fas fa-star"></i></li>...........</ul>.....
+17c0: .....</div>..........<div class="course-details-btn">...........
+1800: <a href="https://softwareacademy.bg/index.php?q=course&id=192">.
+1840: ............. <i class="fas fa-arrow-right"></i></a>..........</
+1880: div>..........<div class="blakish-overlay"></div>.........</div>
+18c0: .........<div class="best-course-text" style="height:170px;">...
+1900: .......<div class="course-title mb-2 headline relative-position"
+1940: >...........<h3><a href="https://softwareacademy.bg/index.php?q=
+1980: course&id=192">QA Manual</a></h3>..........</div>..........<div 
+19c0: class="course-meta">...........<p>.................. .. ........
+1a00: .................. ................</p>..........</div>.........
+1a40: </div>........</div>.......</div>.......<!-- /course -->........
+1a80: ...................<div class="col-md-3">........<div class="bes
+1ac0: t-course-pic-text relative-position "  style="height:100%;">....
+1b00: .....<div class="best-course-pic relative-position">..........<i
+1b40: mg src="https://marketingexpert.bg/siteadmin/img_uploads/headers
+1b80: /description_course_68_370.jpg" alt="">...................<div c
+1bc0: lass="course-price text-center gradient-bg">...........<span>11 
+1c00: Oct 2021</span>..........</div>...................<div class="co
+1c40: urse-rate ul-li">...........<ul>............<li><i class="fas fa
+1c80: -star"></i></li>............<li><i class="fas fa-star"></i></li>
+1cc0: ............<li><i class="fas fa-star"></i></li>............<li>
+1d00: <i class="fas fa-star"></i></li>............<li><i class="fas fa
+1d40: -star"></i></li>...........</ul>..........</div>..........<div c
+1d80: lass="course-details-btn">...........<a href="https://softwareac
+1dc0: ademy.bg/index.php?q=course&id=68">.............. <i class="fas 
+1e00: fa-arrow-right"></i></a>..........</div>..........<div class="bl
+1e40: akish-overlay"></div>.........</div>.........<div class="best-co
+1e80: urse-text" style="height:170px;">..........<div class="course-ti
+1ec0: tle mb-2 headline relative-position">...........<h3><a href="htt
+1f00: ps://softwareacademy.bg/index.php?q=course&id=68">Web Developmen
+1f40: t ................</a></h3>..........</div>..........<div class=
+1f80: "course-meta">...........<p>...... .... ........ ...............
+1fc0: ... ...... ....................... ...... ..............
+<= Recv data, 8184 bytes (0x1ff8)
+0000: .... ..............!</p>..........</div>.........</div>........<
+0040: /div>.......</div>.......<!-- /course -->.......................
+0080: ....<div class="col-md-3">........<div class="best-course-pic-te
+00c0: xt relative-position "  style="height:100%;">.........<div class
+0100: ="best-course-pic relative-position">..........<img src="https:/
+0140: /marketingexpert.bg/siteadmin/img_uploads/headers/description_co
+0180: urse_120_370.jpg" alt="">...................<div class="course-p
+01c0: rice text-center gradient-bg">...........<span>11 Oct 2021</span
+0200: >..........</div>...................<div class="course-rate ul-l
+0240: i">...........<ul>............<li><i class="fas fa-star"></i></l
+0280: i>............<li><i class="fas fa-star"></i></li>............<l
+02c0: i><i class="fas fa-star"></i></li>............<li><i class="fas 
+0300: fa-star"></i></li>............<li><i class="fas fa-star"></i></l
+0340: i>...........</ul>..........</div>..........<div class="course-d
+0380: etails-btn">...........<a href="https://softwareacademy.bg/index
+03c0: .php?q=course&id=120">.............. <i class="fas fa-arrow-righ
+0400: t"></i></a>..........</div>..........<div class="blakish-overlay
+0440: "></div>.........</div>.........<div class="best-course-text" st
+0480: yle="height:170px;">..........<div class="course-title mb-2 head
+04c0: line relative-position">...........<h3><a href="https://software
+0500: academy.bg/index.php?q=course&id=120">Front-End ................
+0540: ........</a></h3>..........</div>..........<div class="course-me
+0580: ta">...........<p>.......... .. .......... .... front-end ......
+05c0: ......................?</p>..........</div>.........</div>......
+0600: ..</div>.......</div>.......<!-- /course -->....................
+0640: .......<div class="col-md-3">........<div class="best-course-pic
+0680: -text relative-position "  style="height:100%;">.........<div cl
+06c0: ass="best-course-pic relative-position">..........<img src="http
+0700: s://marketingexpert.bg/siteadmin/img_uploads/headers/description
+0740: _course_63_370.jpg" alt="">...................<div class="course
+0780: -price text-center gradient-bg">...........<span>11 Oct 2021</sp
+07c0: an>..........</div>...................<div class="course-rate ul
+0800: -li">...........<ul>............<li><i class="fas fa-star"></i><
+0840: /li>............<li><i class="fas fa-star"></i></li>............
+0880: <li><i class="fas fa-star"></i></li>............<li><i class="fa
+08c0: s fa-star"></i></li>............<li><i class="fas fa-star"></i><
+0900: /li>...........</ul>..........</div>..........<div class="course
+0940: -details-btn">...........<a href="https://softwareacademy.bg/ind
+0980: ex.php?q=education&id=10">.............. <i class="fas fa-arrow-
+09c0: right"></i></a>..........</div>..........<div class="blakish-ove
+0a00: rlay"></div>.........</div>.........<div class="best-course-text
+0a40: " style="height:170px;">..........<div class="course-title mb-2 
+0a80: headline relative-position">...........<h3><a href="https://soft
+0ac0: wareacademy.bg/index.php?q=education&id=10">QA - ...............
+0b00: ... ................</a></h3>..........</div>..........<div clas
+0b40: s="course-meta">...........<p>.............. ............ .... .
+0b80: ..................... ................ </p>..........</div>.....
+0bc0: ....</div>........</div>.......</div>.......<!-- /course -->....
+0c00: .......................<div class="col-md-3">........<div class=
+0c40: "best-course-pic-text relative-position "  style="height:100%;">
+0c80: .........<div class="best-course-pic relative-position">........
+0cc0: ..<img src="https://marketingexpert.bg/siteadmin/img_uploads/hea
+0d00: ders/description_course_61_370.jpg" alt="">...................<d
+0d40: iv class="course-price text-center gradient-bg">...........<span
+0d80: >15 Oct 2021</span>..........</div>...................<div class
+0dc0: ="course-rate ul-li">...........<ul>............<li><i class="fa
+0e00: s fa-star"></i></li>............<li><i class="fas fa-star"></i><
+0e40: /li>............<li><i class="fas fa-star"></i></li>............
+0e80: <li><i class="fas fa-star"></i></li>............<li><i class="fa
+0ec0: s fa-star"></i></li>...........</ul>..........</div>..........<d
+0f00: iv class="course-details-btn">...........<a href="https://softwa
+0f40: reacademy.bg/index.php?q=education&id=12">.............. <i clas
+0f80: s="fas fa-arrow-right"></i></a>..........</div>..........<div cl
+0fc0: ass="blakish-overlay"></div>.........</div>.........<div class="
+1000: best-course-text" style="height:170px;">..........<div class="co
+1040: urse-title mb-2 headline relative-position">...........<h3><a hr
+1080: ef="https://softwareacademy.bg/index.php?q=education&id=12">Game
+10c0:  Development ................ .... ..................</a></h3>..
+1100: ........</div>..........<div class="course-meta">...........<p>.
+1140: ................... .... .. ............ ............ .... .....
+1180: ............. .... .......... ........</p>..........</div>......
+11c0: ...</div>........</div>.......</div>.......<!-- /course -->.....
+1200: ......................<div class="col-md-3">........<div class="
+1240: best-course-pic-text relative-position "  style="height:100%;">.
+1280: ........<div class="best-course-pic relative-position">.........
+12c0: .<img src="https://marketingexpert.bg/siteadmin/img_uploads/head
+1300: ers/description_course_65_370.jpg" alt="">...................<di
+1340: v class="course-price text-center gradient-bg">...........<span>
+1380: 25 Oct 2021</span>..........</div>...................<div class=
+13c0: "course-rate ul-li">...........<ul>............<li><i class="fas
+1400:  fa-star"></i></li>............<li><i class="fas fa-star"></i></
+1440: li>............<li><i class="fas fa-star"></i></li>............<
+1480: li><i class="fas fa-star"></i></li>............<li><i class="fas
+14c0:  fa-star"></i></li>...........</ul>..........</div>..........<di
+1500: v class="course-details-btn">...........<a href="https://softwar
+1540: eacademy.bg/index.php?q=education&id=6">.............. <i class=
+1580: "fas fa-arrow-right"></i></a>..........</div>..........<div clas
+15c0: s="blakish-overlay"></div>.........</div>.........<div class="be
+1600: st-course-text" style="height:170px;">..........<div class="cour
+1640: se-title mb-2 headline relative-position">...........<h3><a href
+1680: ="https://softwareacademy.bg/index.php?q=education&id=6">Python 
+16c0: ................ .... ..................</a></h3>..........</div
+1700: >..........<div class="course-meta">...........<p>Python .. ....
+1740: .... ...... 5 .... ......-.................. .......... .. .....
+1780: ..... .... .............................</p>..........</div>....
+17c0: .....</div>........</div>.......</div>.......<!-- /course -->...
+1800: ........................<div class="col-md-3">........<div class
+1840: ="best-course-pic-text relative-position "  style="height:100%;"
+1880: >.........<div class="best-course-pic relative-position">.......
+18c0: ...<img src="https://marketingexpert.bg/siteadmin/img_uploads/he
+1900: aders/description_course_113_370.jpg" alt="">...................
+1940: <div class="course-price text-center gradient-bg">...........<sp
+1980: an>05 Nov 2021</span>..........</div>...................<div cla
+19c0: ss="course-rate ul-li">...........<ul>............<li><i class="
+1a00: fas fa-star"></i></li>............<li><i class="fas fa-star"></i
+1a40: ></li>............<li><i class="fas fa-star"></i></li>..........
+1a80: ..<li><i class="fas fa-star"></i></li>............<li><i class="
+1ac0: fas fa-star"></i></li>...........</ul>..........</div>..........
+1b00: <div class="course-details-btn">...........<a href="https://soft
+1b40: wareacademy.bg/index.php?q=course&id=113">.............. <i clas
+1b80: s="fas fa-arrow-right"></i></a>..........</div>..........<div cl
+1bc0: ass="blakish-overlay"></div>.........</div>.........<div class="
+1c00: best-course-text" style="height:170px;">..........<div class="co
+1c40: urse-title mb-2 headline relative-position">...........<h3><a hr
+1c80: ef="https://softwareacademy.bg/index.php?q=course&id=113">QA Aut
+1cc0: omation</a></h3>..........</div>..........<div class="course-met
+1d00: a">...........<p>.................... .... .. ..................
+1d40: ...... JAVA .. ......</p>..........</div>.........</div>........
+1d80: </div>.......</div>.......<!-- /course -->......................
+1dc0: .....<div class="col-md-3">........<div class="best-course-pic-t
+1e00: ext relative-position "  style="height:100%;">.........<div clas
+1e40: s="best-course-pic relative-position">..........<img src="https:
+1e80: //marketingexpert.bg/siteadmin/img_uploads/headers/description_c
+1ec0: ourse_67_370.jpg" alt="">...................<div class="course-p
+1f00: rice text-center gradient-bg">...........<span>08 Nov 2021</span
+1f40: >..........</div>...................<div class="course-rate ul-l
+1f80: i">...........<ul>............<li><i class="fas fa-star"></i></l
+1fc0: i>............<li><i class="fas fa-star"></i></li>......
+<= Recv data, 8184 bytes (0x1ff8)
+0000: ......<li><i class="fas fa-star"></i></li>............<li><i cla
+0040: ss="fas fa-star"></i></li>............<li><i class="fas fa-star"
+0080: ></i></li>...........</ul>..........</div>..........<div class="
+00c0: course-details-btn">...........<a href="https://softwareacademy.
+0100: bg/index.php?q=java_academy">.............. <i class="fas fa-arr
+0140: ow-right"></i></a>..........</div>..........<div class="blakish-
+0180: overlay"></div>.........</div>.........<div class="best-course-t
+01c0: ext" style="height:170px;">..........<div class="course-title mb
+0200: -2 headline relative-position">...........<h3><a href="https://s
+0240: oftwareacademy.bg/index.php?q=java_academy">JAVA ...............
+0280: . .... ..................</a></h3>..........</div>..........<div
+02c0:  class="course-meta">...........<p>.. JAVA ............ .... ...
+0300: ................... .......... ........................ ........
+0340: .......... ................</p>..........</div>.........</div>..
+0380: ......</div>.......</div>.......<!-- /course -->.............</d
+03c0: iv>.....</div>..........</div>...</section>..<!-- End of best co
+0400: urse...============================================= -->........
+0440: ..<!-- Start of testimonial secound section...==================
+0480: =========================== -->...<section id="testimonial_2" cl
+04c0: ass="testimonial_2_section mb-5" style="padding-top:0px;">....<d
+0500: iv class="container">.....<div class="testimonial-slide">......<
+0540: div class="section-title-2 mb65 headline text-left">.......<h2>.
+0580: ........... <span>.... ................</span></h2>......</div>.
+05c0: ......<div id="testimonial-slide-item" class="testimonial-slide-
+0600: area">.............<div class="student-qoute">........<div class
+0640: ="row">.........<div class="col-md-3">..........<img style="bord
+0680: er-radius: 3px;" src="https://marketingexpert.bg/siteadmin/img_u
+06c0: ploads/gallery/testimonial1675991702_test.jpg">.........</div>..
+0700: ........<div class="col-md-9">..........<p>............. .... ..
+0740: ............ ................ .... ............................ 
+0780: .... .......... .... Web Development, ........ Front End - .....
+07c0: ............. .... ............ ................. .. .......... 
+0800: .............. ................ ...................... .. .... .
+0840: ............. ........ .... .......... - Back End.<br />
+087a: .............. ............ ........................ ...........
+08ba: ..... .... IT .............. ................<br />
+08ef: .............. ...... ..........</p>..........<div class="studen
+092f: t-name-designation">...........<span class="st-name bold-font" s
+096f: tyle="font-size:14px;">.................. ............</span>...
+09af: ........<span class="st-designation" style="font-size:14px;">...
+09ef: ........... .. ....................</span>..........</div>......
+0a2f: ...</div>........</div>.......</div>.............<div class="stu
+0a6f: dent-qoute">........<div class="row">.........<div class="col-md
+0aaf: -3">..........<img style="border-radius: 3px;" src="https://mark
+0aef: etingexpert.bg/siteadmin/img_uploads/gallery/testimonial82105156
+0b2f: _test.jpg">.........</div>..........<div class="col-md-9">......
+0b6f: ....<p>............. ........ ........... .......... .......... 
+0baf: ................, .......... .............. .... ....-..........
+0bef:  .................. .... ......................</p>..........<di
+0c2f: v class="student-name-designation">...........<span class="st-na
+0c6f: me bold-font" style="font-size:14px;">............ .............
+0caf: .</span>...........<span class="st-designation" style="font-size
+0cef: :14px;">.............. .. ....................</span>..........<
+0d2f: /div>.........</div>........</div>.......</div>.............<div
+0d6f:  class="student-qoute">........<div class="row">.........<div cl
+0daf: ass="col-md-3">..........<img style="border-radius: 3px;" src="h
+0def: ttps://marketingexpert.bg/siteadmin/img_uploads/gallery/testimon
+0e2f: ial684520885_test.jpg">.........</div>..........<div class="col-
+0e6f: md-9">..........<p>................... .................. .... .
+0eaf: ............................. .. .. .......... .................
+0eef: .. ............ ................, ............ .... .... .......
+0f2f: ......... .......... ............ .. .................., .... ..
+0f6f:  ............ .................. .. .......... .... ......, ....
+0faf: ...... .... .... ............ .. .............. ................
+0fef: !...</p>..........<div class="student-name-designation">........
+102f: ...<span class="st-name bold-font" style="font-size:14px;">.....
+106f: ......... ..............</span>...........<span class="st-design
+10af: ation" style="font-size:14px;">.............. .. ...............
+10ef: .....</span>..........</div>.........</div>........</div>.......
+112f: </div>.............<div class="student-qoute">........<div class
+116f: ="row">.........<div class="col-md-3">..........<img style="bord
+11af: er-radius: 3px;" src="https://marketingexpert.bg/siteadmin/img_u
+11ef: ploads/gallery/testimonial1243741869_test.jpg">.........</div>..
+122f: ........<div class="col-md-9">..........<p>............. .......
+126f: ............. .... .......... .......... .......... .. .........
+12af: ... ...... .............. .... .... ...................... .. ..
+12ef: .......... .... QA. ........ ........ ...................., ....
+132f: ...... ............ .. ............ .... ......................<
+136f: /p>..........<div class="student-name-designation">...........<s
+13af: pan class="st-name bold-font" style="font-size:14px;">...... ...
+13ef: ...........</span>...........<span class="st-designation" style=
+142f: "font-size:14px;">.............. .. ....................</span>.
+146f: .........</div>.........</div>........</div>.......</div>.......
+14af: ......<div class="student-qoute">........<div class="row">......
+14ef: ...<div class="col-md-3">..........<img style="border-radius: 3p
+152f: x;" src="https://marketingexpert.bg/siteadmin/img_uploads/galler
+156f: y/testimonial748367224_test.jpg">.........</div>..........<div c
+15af: lass="col-md-9">..........<p>................. .... .. .........
+15ef: ........... .... Python .. .............. .......... ...........
+162f: .... .................... .. .......................... .... ...
+166f: ....... ................ ..............</p>..........<div class=
+16af: "student-name-designation">...........<span class="st-name bold-
+16ef: font" style="font-size:14px;">............ ................</spa
+172f: n>...........<span class="st-designation" style="font-size:14px;
+176f: ">.............. .. ....................</span>..........</div>.
+17af: ........</div>........</div>.......</div>.............<div class
+17ef: ="student-qoute">........<div class="row">.........<div class="c
+182f: ol-md-3">..........<img style="border-radius: 3px;" src="https:/
+186f: /marketingexpert.bg/siteadmin/img_uploads/gallery/testimonial185
+18af: 8737144_test.jpg">.........</div>..........<div class="col-md-9"
+18ef: >..........<p>............. .... ............ ...... ...........
+192f: ..... .................., .......... ........................ ..
+196f: ........, ................ ........, .... .... ........ ........
+19af: ............ .... .... .............. ...... .............. ....
+19ef: .............</p>..........<div class="student-name-designation"
+1a2f: >...........<span class="st-name bold-font" style="font-size:14p
+1a6f: x;">............ ..................</span>...........<span class
+1aaf: ="st-designation" style="font-size:14px;">.............. .. ....
+1aef: ................</span>..........</div>.........</div>........</
+1b2f: div>.......</div>............</div>.....</div>....</div>...</sec
+1b6f: tion>..<!-- End  of testimonial secound section...==============
+1baf: =============================== -->......<!-- Start of sponsor s
+1bef: ection...============================================= -->...<se
+1c2f: ction id="sponsor" class="course-category-section mt-5">....<div
+1c6f:  class="container">.....<div class="section-title-2 mb65 headlin
+1caf: e text-left">......<h2>............ <span>...... ...............
+1cef: ...</span></h2>.....</div>.....<div class="sponsor-item sponsor-
+1d2f: 1">...........<div class="sponsor-pic text-center pt-3">.......<
+1d6f: a href="https://www.icn.bg" target="_blank"><img src="https://ma
+1daf: rketingexpert.bg/siteadmin/img_uploads/gallery/partnerlogo172010
+1def: 6032.jpg" alt="" class="pr-3"></a>......</div>...........<div cl
+1e2f: ass="sponsor-pic text-center pt-3">.......<a href="https://www.s
+1e6f: portal.bg" target="_blank"><img src="https://marketingexpert.bg/
+1eaf: siteadmin/img_uploads/gallery/partnerlogo274623629.jpg" alt="" c
+1eef: lass="pr-3"></a>......</div>...........<div class="sponsor-pic t
+1f2f: ext-center pt-3">.......<a href="http://adpoint.bg." target="_bl
+1f6f: ank"><img src="https://marketingexpert.bg/siteadmin/img_uploads/
+1faf: gallery/partnerlogo749587544.jpg" alt="" class="pr-3"></a>......
+1fef: </div>...
+<= Recv data, 8184 bytes (0x1ff8)
+0000: ........<div class="sponsor-pic text-center pt-3">.......<a href
+0040: ="https://www.navet.government.bg/." target="_blank"><img src="h
+0080: ttps://marketingexpert.bg/siteadmin/img_uploads/gallery/partnerl
+00c0: ogo65274126.jpg" alt="" class="pr-3"></a>......</div>...........
+0100: <div class="sponsor-pic text-center pt-3">.......<a href="https:
+0140: //www.mlsp.government.bg/." target="_blank"><img src="https://ma
+0180: rketingexpert.bg/siteadmin/img_uploads/gallery/partnerlogo174240
+01c0: 0142.jpg" alt="" class="pr-3"></a>......</div>...........<div cl
+0200: ass="sponsor-pic text-center pt-3">.......<a href="https://www.m
+0240: on.bg/" target="_blank"><img src="https://marketingexpert.bg/sit
+0280: eadmin/img_uploads/gallery/partnerlogo170924384.jpg" alt="" clas
+02c0: s="pr-3"></a>......</div>..........</div>....</div>...</section>
+0300: ..<!-- End of sponsor section...================================
+0340: ============= -->........ .<!-- Start of footer section. ..=====
+0380: ======================================== -->....................
+03c0: . ..<footer>. ...<section id="footer-area" class="footer-area-se
+0400: ction">. ....<div class="container">. .....<div class="footer-co
+0440: ntent pb10">. ......<div class="row">. .......<div class="col-md
+0480: -3">. ........<div class="footer-widget "  >. .........<div clas
+04c0: s="footer-logo mb35">. ..........<img src="https://netit.bg/wp-c
+0500: ontent/uploads/2017/12/logo-new@2x.png" alt="">. .........</div>
+0540: . .........<div class="footer-about-text">. ..........<p>.......
+0580: ............... ................ .. ........ .... ..............
+05c0:  ............ .... .......................... ................ .
+0600: ..... .....</p>. .........</div>. ........</div>. .......</div>.
+0640:  .......<div class="col-md-6">. ........<div class="footer-widge
+0680: t "  >. .........<div class="footer-menu ul-li-block">. ........
+06c0: ..<h2 class="widget-title">.... ...... ....</h2>. ..........<ul>
+0700: . ...........<li><a href="http://netit.bg/"><i class="fas fa-car
+0740: et-right"></i>NetIt.bg</a></li>. ...........<li><a href="http://
+0780: netit.bg/news/" target="_blank"><i class="fas fa-caret-right"></
+07c0: i>............ .... ...... ....</a></li>. ...........<li><a href
+0800: ="https://www.facebook.com/groups/156595944822193/" target="_bla
+0840: nk"><i class="fas fa-caret-right"></i>Facebook ..........</a></l
+0880: i>. ...........<li><a href="https://www.youtube.com/channel/UCbV
+08c0: aqOuICEIelfuTdxj61rQ/videos" target="_blank"><i class="fas fa-ca
+0900: ret-right"></i>YouTube ..........</a></li>. ...........<li><a hr
+0940: ef="http://netit.bg/become-a-teacher/" target="_blank"><i class=
+0980: "fas fa-caret-right"></i>.......... ............</a></li>. .....
+09c0: .....</ul>. .........</div>. ........</div>. ........<div class=
+0a00: "footer-menu ul-li-block">. .........<h2 class="widget-title">..
+0a40: ............ ............</h2>. .........<ul>. ..........<li><a 
+0a80: href="http://softwareacademy.bg/" target="_blank"><i class="fas 
+0ac0: fa-caret-right"></i>SoftwareAcademy.bg</a></li>. ..........<li><
+0b00: a href="http://accountingacademy.bg/" target="_blank"><i class="
+0b40: fas fa-caret-right"></i>AccountingAcademy.bg</a></li>. .........
+0b80: .<li><a href="http://marketingacademy.bg/" target="_blank"><i cl
+0bc0: ass="fas fa-caret-right"></i>MarketingAcademy.bg</a></li>. .....
+0c00: .....<li><a href="https://accountingacademy.bg/" target="_blank"
+0c40: ><i class="fas fa-caret-right"></i>AccountingAcademy.bg</a></li>
+0c80: . ..........<li><a href="https://businessacademy.bg/" target="_b
+0cc0: lank"><i class="fas fa-caret-right"></i>BusinessAcademy.bg</a></
+0d00: li>. ..........<li><a href="https://www.freelancersincubator.com
+0d40: /" target="_blank"><i class="fas fa-caret-right"></i>Freelancers
+0d80: Incubator.com</a></li>...........<li><a href="https://homedesign
+0dc0: institute.com/" target="_blank"><i class="fas fa-caret-right"></
+0e00: i>HomeDesignInstitute.com</a></li>. .........</ul>. ........</di
+0e40: v>. .......</div>. .......<div class="col-md-3">. ........<div c
+0e80: lass="footer-widget "  >. .........<h2 class="widget-title">....
+0ec0: ............ ............</h2>. .........<div class="photo-list 
+0f00: ul-li">. ..........<ul>............ ...........<li>. ...........
+0f40: .<img src="https://marketingexpert.bg/siteadmin/img_uploads/gall
+0f80: ery/gallery615552799_sq.jpg" style="width:80px;">. ............<
+0fc0: div class="blakish-overlay"></div>. ............<div class="pop-
+1000: up-icon">. .............<a href="https://marketingexpert.bg/site
+1040: admin/img_uploads/gallery/gallery615552799_big.jpg" data-lightbo
+1080: x="roadtrip">. ..............<i class="fas fa-search"></i>. ....
+10c0: .........</a>. ............</div>. ...........</li>............ 
+1100: ...........<li>. ............<img src="https://marketingexpert.b
+1140: g/siteadmin/img_uploads/gallery/gallery326355763_sq.jpg" style="
+1180: width:80px;">. ............<div class="blakish-overlay"></div>. 
+11c0: ............<div class="pop-up-icon">. .............<a href="htt
+1200: ps://marketingexpert.bg/siteadmin/img_uploads/gallery/gallery326
+1240: 355763_big.jpg" data-lightbox="roadtrip">. ..............<i clas
+1280: s="fas fa-search"></i>. .............</a>. ............</div>. .
+12c0: ..........</li>............ ...........<li>. ............<img sr
+1300: c="https://marketingexpert.bg/siteadmin/img_uploads/gallery/gall
+1340: ery1846019153_sq.jpg" style="width:80px;">. ............<div cla
+1380: ss="blakish-overlay"></div>. ............<div class="pop-up-icon
+13c0: ">. .............<a href="https://marketingexpert.bg/siteadmin/i
+1400: mg_uploads/gallery/gallery1846019153_big.jpg" data-lightbox="roa
+1440: dtrip">. ..............<i class="fas fa-search"></i>. ..........
+1480: ...</a>. ............</div>. ...........</li>............ ......
+14c0: .....<li>. ............<img src="https://marketingexpert.bg/site
+1500: admin/img_uploads/gallery/gallery1855601298_sq.jpg" style="width
+1540: :80px;">. ............<div class="blakish-overlay"></div>. .....
+1580: .......<div class="pop-up-icon">. .............<a href="https://
+15c0: marketingexpert.bg/siteadmin/img_uploads/gallery/gallery18556012
+1600: 98_big.jpg" data-lightbox="roadtrip">. ..............<i class="f
+1640: as fa-search"></i>. .............</a>. ............</div>. .....
+1680: ......</li>............ ............ ..........</ul>. .........<
+16c0: /div>. ........</div>. .......</div>. ......</div>. .....</div> 
+1700: . .....<!-- /footer-widget-content -->. .....<div class="footer-
+1740: social-subscribe mb65">. ......<div class="row">. .......<div cl
+1780: ass="col-md-3">. ........<div class="footer-social ul-li "  >. .
+17c0: ........<h2 class="widget-title">...... .... .. ................
+1800: .... ..........</h2>. .........<ul>. ..........<li><a href="http
+1840: s://www.facebook.com/netitbg/" target="_blank"><i class="fab fa-
+1880: facebook-f"></i></a></li>. ..........<li><a href="https://www.li
+18c0: nkedin.com/company/5345608/admin/" target="_blank"><i class="fab
+1900:  fa-linkedin"></i></a></li>. ..........<li><a href="https://www.
+1940: youtube.com/channel/UCbVaqOuICEIelfuTdxj61rQ/videos" target="_bl
+1980: ank"><i class="fab fa-youtube"></i></a></li>........... ........
+19c0: .</ul>. ........</div>. .......</div>. ........ ......</div>. ..
+1a00: ...</div>.. .....<div class="copy-right-menu">. ......<div class
+1a40: ="row">. .......<div class="col-md-6">. ........<div class="copy
+1a80: -right-text">. .........<p>.. 2021 - ...... .... ........ - ....
+1ac0: ........ .......... ................!</p>. ........</div>. .....
+1b00: ..</div>. .......<div class="col-md-6">. ........<div class="cop
+1b40: y-right-menu-item float-right ul-li">. .........<ul>. ..........
+1b80: <li><a href="https://softwareacademy.bg/index.php?q=conditions">
+1bc0: .............. .... ................</a></li>. ..........<li><a 
+1c00: href="https://softwareacademy.bg/index.php?q=coogdpr">..........
+1c40: ...... .... .................. .... .......... ..........</a></l
+1c80: i>. .........</ul>. ........</div>. .......</div>. ......</div>.
+1cc0:  .....</div>. ....</div>. ...</section>. ..</footer>....<!-- End
+1d00:  of footer section...===========================================
+1d40: == -->.......<!-- For Js Library -->...<script src="assets/js/jq
+1d80: uery-2.1.4.min.js"></script>...<script src="assets/js/bootstrap.
+1dc0: min.js"></script>...<script src="assets/js/popper.min.js"></scri
+1e00: pt>...<script src="assets/js/owl.carousel.min.js"></script>...<s
+1e40: cript src="assets/js/jarallax.js"></script>...<script src="asset
+1e80: s/js/jquery.magnific-popup.min.js"></script>...<script src="asse
+1ec0: ts/js/lightbox.js"></script>...<script src="assets/js/jquery.mea
+1f00: nmenu.js"></script>...<script src="assets/js/scrollreveal.min.js
+1f40: "></script>...<script src="assets/js/jquery.counterup.min.js"></
+1f80: script>...<script src="assets/js/waypoints.min.js"></script>...<
+1fc0: script src="assets/js/jquery-ui.js"></script>...<script 
+<= Recv data, 2 bytes (0x2)
+0000: 
+<= Recv data, 4267 bytes (0x10ab)
+0000: 109e
+0006: src="assets/js/gmap3.min.js"></script>...<script src="assets/js/
+0046: switch.js"></script>...<script src="https://maps.google.com/maps
+0086: /api/js?key=AIzaSyC61_QVqt9LAhwFdlQmsNwi5aUJy9B2SyA"></script>..
+00c6: ..<script src="assets/js/script.js"></script>...<script src="ass
+0106: ets/js/my_script.js"></script>...<script src="assets/js/jquery.i
+0146: havecookies.js"></script>......<script src="myjs.php"></script>.
+0186: ........<script type="text/javascript">...var options = {....tit
+01c6: le: '.............. .... .............. ..........',....message:
+0206:  '.... .......... .... ........................ .... ..........,
+0246:  .... .......... .... .......... ................ ........ .....
+0286: ..... .........., .......... .. .... .......... ................
+02c6: .... <strong>..................</strong>.',....delay: 600,....ex
+0306: pires: 1,....link: 'https://softwareacademy.bg/index.php?q=gdpr'
+0346: ,....onAccept: function(){.....var myPreferences = $.fn.ihavecoo
+0386: kies.cookie();.....console.log('Yay! The following preferences w
+03c6: ere saved...');.....console.log(myPreferences);....},....uncheck
+0406: Boxes: true,....acceptBtnLabel: '.................... .... .. ..
+0446: ................',....moreInfoLabel: '............ .............
+0486: .......',....cookieTypesTitle: 'Select which cookies you want to
+04c6:  accept',....fixedCookieTypeLabel: 'Essential',....fixedCookieTy
+0506: peDesc: 'These are essential for the website to work correctly.'
+0546: ...}....$(document).ready(function() {....$('body').ihavecookies
+0586: (options);......if ($.fn.ihavecookies.preference('marketing') ==
+05c6: = true) {.....console.log('This should run because marketing is 
+0606: accepted.');....}......$('#ihavecookiesBtn').on('click', functio
+0646: n(){.....$('body').ihavecookies(options, 'reinit');....});...});
+0686: ..    </script>.........................
+06b0: <script>
+06ba: !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.ca
+06fa: llMethod?
+0705: n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._
+0745: fbq)f._fbq=n;
+0754: n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElemen
+0794: t(e);t.async=!0;
+07a6: t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore
+07e6: (t,s)}(window,
+07f6: document,'script','//connect.facebook.net/en_US/fbevents.js');
+0836: 
+0838: fbq('init', '1562344387364840');
+085a: fbq('track', "PageView");</script>
+087e: <noscript><img height="1" width="1" style="display:none"
+08b8: src="https://www.facebook.com/tr?id=1562344387364840&ev=PageView
+08f8: &noscript=1"
+0906: /></noscript>
+0915: <!-- End Facebook Pixel Code -->..
+0939: ..
+093d: <!-- Google Code for Remarketing Tag -->
+0967: <!--------------------------------------------------
+099d: Remarketing tags may not be associated with personally identifia
+09dd: ble information or placed on pages related to sensitive categori
+0a1d: es. See more information and instructions on how to setup the ta
+0a5d: g on: http://google.com/ads/remarketingsetup
+0a8b: --------------------------------------------------->
+0ac1: <script type="text/javascript">
+0ae2: /* <![CDATA[ */
+0af3: var google_conversion_id = 994464923;
+0b1a: var google_custom_params = window.google_tag_params;
+0b50: var google_remarketing_only = true;
+0b75: /* ]]> */
+0b80: </script>
+0b8b: <script type="text/javascript" src="//www.googleadservices.com/p
+0bcb: agead/conversion.js">
+0be2: </script>
+0bed: <noscript>
+0bf9: <div style="display:inline;">
+0c18: <img height="1" width="1" style="border-style:none;" alt="" src=
+0c58: "//googleads.g.doubleclick.net/pagead/viewthroughconversion/9944
+0c98: 64923/?value=0&amp;guid=ON&amp;script=0"/>
+0cc4: </div>
+0ccc: </noscript>
+0cd9: ..
+0cdd: 
+0cdf: <!-- Hotjar Tracking Code for designacademy.bg -->
+0d13: <script>
+0d1d:     (function(h,o,t,j,a,r){
+0d3a:         h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments
+0d7a: )};
+0d7f:         h._hjSettings={hjid:1649009,hjsv:6};
+0dad:         a=o.getElementsByTagName('head')[0];
+0ddb:         r=o.createElement('script');r.async=1;
+0e0b:         r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+0e45:         a.appendChild(r);
+0e60:     })(window,document,'https://static.hotjar.com/c/hotjar-','.j
+0ea0: s?sv=');
+0eaa: </script>
+0eb5: 
+0eb7: ..
+0ebb: ..
+0ebf: <!-- Global site tag (gtag.js) - Google Analytics -->
+0ef6: <script async src="https://www.googletagmanager.com/gtag/js?id=U
+0f36: A-73126563-1"></script>
+0f4f: <script>
+0f59:   window.dataLayer = window.dataLayer || [];
+0f87:   function gtag(){dataLayer.push(arguments);}
+0fb6:   gtag('js', new Date());
+0fd1: 
+0fd3:   gtag('config', 'UA-73126563-1');
+0ff7: </script>
+1002: 
+1004: 
+1006:     
+100c: <script src="https://www.google.com/recaptcha/api.js?onload=onlo
+104c: adCallback&render=explicit"
+1069:         async defer>
+107f:     </script>.
+108f: ....</body>..</html> 
+10a6: 0
+10a9: 
+== Info: Connection #0 to host softwareacademy.bg left intact

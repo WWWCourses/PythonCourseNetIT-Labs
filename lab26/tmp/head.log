@@ -1,0 +1,77 @@
+== Info: Rebuilt URL to: HEAD/
+== Info: Could not resolve host: HEAD
+== Info: Closing connection 0
+== Info:   Trying 185.199.111.153...
+== Info: Connected to wwwcourses.github.io (185.199.111.153) port 443 (#1)
+== Info: found 131 certificates in /etc/ssl/certs/ca-certificates.crt
+== Info: found 533 certificates in /etc/ssl/certs
+== Info: ALPN, offering http/1.1
+== Info: SSL connection using TLS1.2 / ECDHE_RSA_AES_128_GCM_SHA256
+== Info: 	 server certificate verification OK
+== Info: 	 server certificate status verification SKIPPED
+== Info: 	 common name: www.github.com (matched)
+== Info: 	 server certificate expiration date OK
+== Info: 	 server certificate activation date OK
+== Info: 	 certificate public key: RSA
+== Info: 	 certificate version: #3
+== Info: 	 subject: C=US,ST=California,L=San Francisco,O=GitHub\, Inc.,CN=www.github.com
+== Info: 	 start date: Wed, 06 May 2020 00:00:00 GMT
+== Info: 	 expire date: Thu, 14 Apr 2022 12:00:00 GMT
+== Info: 	 issuer: C=US,O=DigiCert Inc,OU=www.digicert.com,CN=DigiCert SHA2 High Assurance Server CA
+== Info: 	 compression: NULL
+== Info: ALPN, server accepted to use http/1.1
+=> Send header, 110 bytes (0x6e)
+0000: HEAD /PythonCourseNetIT-Slides/ HTTP/1.1
+002a: Host: wwwcourses.github.io
+0046: User-Agent: curl/7.47.0
+005f: Accept: */*
+006c: 
+<= Recv header, 17 bytes (0x11)
+0000: HTTP/1.1 200 OK
+<= Recv header, 24 bytes (0x18)
+0000: Connection: keep-alive
+<= Recv header, 22 bytes (0x16)
+0000: Content-Length: 7167
+<= Recv header, 20 bytes (0x14)
+0000: Server: GitHub.com
+<= Recv header, 40 bytes (0x28)
+0000: Content-Type: text/html; charset=utf-8
+<= Recv header, 40 bytes (0x28)
+0000: permissions-policy: interest-cohort=()
+<= Recv header, 46 bytes (0x2e)
+0000: Last-Modified: Fri, 01 Oct 2021 15:23:57 GMT
+<= Recv header, 32 bytes (0x20)
+0000: Access-Control-Allow-Origin: *
+<= Recv header, 23 bytes (0x17)
+0000: ETag: "6157280d-1bff"
+<= Recv header, 40 bytes (0x28)
+0000: expires: Fri, 01 Oct 2021 17:04:58 GMT
+<= Recv header, 28 bytes (0x1c)
+0000: Cache-Control: max-age=600
+<= Recv header, 21 bytes (0x15)
+0000: x-proxy-cache: MISS
+<= Recv header, 57 bytes (0x39)
+0000: X-GitHub-Request-Id: 65CA:DEF5:15B1F2C:1643562:61573D62
+<= Recv header, 22 bytes (0x16)
+0000: Accept-Ranges: bytes
+<= Recv header, 37 bytes (0x25)
+0000: Date: Fri, 01 Oct 2021 16:55:15 GMT
+<= Recv header, 18 bytes (0x12)
+0000: Via: 1.1 varnish
+<= Recv header, 9 bytes (0x9)
+0000: Age: 17
+<= Recv header, 33 bytes (0x21)
+0000: X-Served-By: cache-fra19165-FRA
+<= Recv header, 14 bytes (0xe)
+0000: X-Cache: HIT
+<= Recv header, 17 bytes (0x11)
+0000: X-Cache-Hits: 1
+<= Recv header, 37 bytes (0x25)
+0000: X-Timer: S1633107315.198676,VS0,VE1
+<= Recv header, 23 bytes (0x17)
+0000: Vary: Accept-Encoding
+<= Recv header, 63 bytes (0x3f)
+0000: X-Fastly-Request-ID: 8fa6fc9cbc6e9b87413642485c1f3346c287ea10
+<= Recv header, 2 bytes (0x2)
+0000: 
+== Info: Connection #1 to host wwwcourses.github.io left intact
