@@ -9,6 +9,8 @@ ENCODING="utf-8"
 
 BUF_SIZE = 1024
 
+
+
 def send_message(msg):
 	s.send(msg.encode(ENCODING))
 
@@ -19,6 +21,8 @@ s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 s.connect((SERVER_IP, PORT))
 print(f'Client is connected to {(SERVER_IP, PORT)} ')
 print(f'Client IP: {CLIENT_IP}, NAME: {CLIENT_NAME} ')
+
+#TASK: Receive messages from server and print them
 
 while True:
 	msg = input("Enter message:")
